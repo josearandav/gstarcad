@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:task="http://www.springframework.org/schema/task" xmlns:cache="http://www.springframework.org/schema/cache"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:security="http://www.springframework.org/schema/security"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd
+		http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache.xsd
+		http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd  
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+
+	<!-- 
+	<import resource="app-scheduler.xml" /> -->
+	
+	<util:properties id="conf" location="classpath:/conf.properties"></util:properties>
+
+  <import resource="app-search.xml" />
+  <import resource="app-gstarcad.xml" />
+  <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+  
+	<task:annotation-driven/>
+
+	<!-- 自动扫描的包名 -->
+	<context:component-scan base-package="com.gstarcad">
+		<context:exclude-filter type="annotation"
+			expression="org.springframework.stereotype.Controller" />
+	</context:component-scan>
+	<!-- 事务注解生效 -->
+    <tx:annotation-driven transaction-manager="txManager"/>
+	<!-- 数据源 -->
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:/jdbc.properties</value>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName" value="${jdbc.driverClassName}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+		<!-- OPTIONAL PROPERTIES BELOW -->
+		<property name="maxActive" value="10" />
+		<property name="maxIdle" value="10" />
+		<property name="maxWait" value="6000" />
+		<!-- Use of the validation query can be problematic. If you have difficulty, 
+			try without it. -->
+		<property name="testOnBorrow" value="true" />
+		<property name="testOnReturn" value="true" />
+		<property name="testWhileIdle" value="true" />
+		<property name="timeBetweenEvictionRunsMillis" value="5000" />
+		<property name="minEvictableIdleTimeMillis" value="60000" />
+		<property name="logAbandoned" value="true" />
+		<property name="removeAbandoned" value="true" />
+		<property name="removeAbandonedTimeout" value="600" />
+	</bean>
+
+	<!-- 导入Src目录下的jdbc.properties文件 -->
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<!--创建Spring的SessionFactory工厂 -->
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<!-- 注入数据源 -->
+		<property name="dataSource" ref="dataSource" />
+		<!-- 设置Spring取那个包中查找相应的实体类 -->
+		<property name="packagesToScan">
+			<value>com.gstarcad</value>
+		</property>
+
+		<property name="hibernateProperties">
+			<props>
+				<prop key="connection.useUnicode">true</prop>
+				<prop key="connection.characterEncoding">utf-8</prop>
+				<prop key="hibernate.dialect">${hibernate.dialect}</prop>
+				<prop key="hibernate.hbm2ddl.auto">none</prop>
+				<prop key="hibernate.show_sql">false</prop>
+				<prop key="hibernate.jdbc.batch_size">20</prop>
+				<prop key="hibernate.jdbc.fetch_size">20</prop>
+				<prop key="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider</prop>
+				<prop key="net.sf.ehcache.configurationResourceName">conf/ehcache.xml</prop>
+				<prop key="hibernate.cache.use_second_level_cache">true</prop>
+			</props>
+		</property>
+		</bean>
+	
+	<!-- <bean class="com.gstarcad.exception.resolver.HandlerBusinessExceptionResolver">  
+	</bean> -->
+	
+	<!-- 开启HibernateTemplate，并且为其注入SessionFactory 使用HibernateTemplate不太方便的就是要获取session得通过getSessionFactory()方法获取 -->
+	<bean id="hibernateTemplate" class="org.springframework.orm.hibernate3.HibernateTemplate">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<!-- 配置Spring的事务处理 -->
+	<bean id="txManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<!-- 配置AOP，Spring是通过AOP来进行事务管理的 -->
+	<aop:config>
+		<!-- 设置pointCut表示哪些方法要加入事务处理 -->
+		<!-- 以下的事务是声明在DAO中，但是通常都会在Service来处理多个业务对象逻辑的关系，注入删除，更新等，此时如果在执行了一个步骤之后抛出异常 
+			就会导致数据不完整，所以事务不应该在DAO层处理，而应该在service，这也就是Spring所提供的一个非常方便的工具，声明式事务 -->
+		<aop:pointcut id="allMethods" expression="execution(* com.gstarcad.website.service.*.*(..))" />
+		<!-- 通过advisor来确定具体要加入事务控制的方法 -->
+		<aop:advisor advice-ref="txAdvice" pointcut-ref="allMethods" />
+	</aop:config>
+	
+	
+	<!-- 配置哪些方法要加入事务控制 -->
+	<tx:advice id="txAdvice" transaction-manager="txManager">
+		<tx:attributes>
+			<!-- 让所有的方法都加入事务管理，为了提高效率，可以把一些查询之类的方法设置为只读的事务 -->
+			<tx:method name="find*" propagation="REQUIRED"/>
+			<tx:method name="get*" propagation="REQUIRED"  />
+			<!-- 以下方法都是可能设计修改的方法，就无法设置为只读 -->
+			<tx:method name="del*" propagation="REQUIRED" />
+			<tx:method name="merge*" propagation="REQUIRED" />
+			<tx:method name="save*" propagation="REQUIRED" />
+			<tx:method name="remove*" propagation="REQUIRED" />
+			<tx:method name="*" propagation="REQUIRED" />
+		</tx:attributes>
+	</tx:advice>
+
+	<!-- 附件上传 -->
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="defaultEncoding" value="UTF-8" />
+		<property name="maxUploadSize" value="100000000" /><!-- 100M -->
+	</bean>
+
+	<bean id="storageService" class="com.gstarcad.website.service.impl.StorageServiceImpl">
+	</bean>
+
+	<!-- add the bean you define here -->
+
+
+  <!-- 定义国际化消息 -->   
+    <!-- 定义国际化消息 -->   
+   <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">   
+     <property name="basename" value="message.Messages"/>  
+      <!-- 如果在国际化资源文件中找不到对应代码的信息，就用这个代码作为名称  -->               
+    <property name="useCodeAsDefaultMessage" value="true" />    
+   </bean>   
+ 
+	<mvc:interceptors>  
+    <!-- 国际化操作拦截器 如果采用基于（请求/Session/Cookie）则必需配置 --> 
+   		<bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor" />  
+	</mvc:interceptors>  
+	
+	<!-- 获取本地 -->  
+   <bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver"> 
+   </bean>
+
+</beans>

@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* 你自己的样式 */
+#preViewWrap .top{ border-bottom: 1px solid #e1e1e1;  padding-bottom: 20px;}
+#preViewWrap .top h1{font-size: 30px;  font-weight: bold;  line-height: 35px;  margin: 0 0 20px 0;text-align: center}
+#preViewWrap .top span{display: block;color:#727171;font-size: 12px;text-align: center}
+#preViewWrap p{  font-size:16px; line-height:30px; margin-top:30px;}
+#preViewWrap img{  display: block; width:auto; margin:50px auto 20px auto; text-align:center; color:#999;}
+textarea::-webkit-input-placeholder{color:#999;}
+/*分页样式*/
+.page{text-align:center; margin:20px auto; clear:both; color:#666666; font-size:14px;}
+.page a{ border:1px solid #c3c3c3; background:#f8f8f8; line-height:24px; height:24px; display:inline-block; width:24px;   margin:0 5px; color:#666; border-radius:0;}
+.page a:hover{ border:1px solid #006cff; background:#006cff; color:#fff;}
+.page a.pageNo{ border:1px solid #006cff; background:#006cff; color:#fff; line-height:24px; height:24px; display:inline-block; width:24px;   margin:0 5px; border-radius:0;}
+.page a.pre,.page a.next{ padding:0; width:78px;}
+.page input{ width:14px; padding:0 5px; line-height:24px; margin:0 5px; height:26px; border:1px solid #c3c3c3;}
+.page a.go{ background:none; border:0; color:#006cff; text-decoration:underline;}
+.page a.go:hover{ text-decoration:none;}
+.page i.total-box{float:right;margin-right:50px;font-style:normal;}
+.page i.total-box em{margin:  0 10px;font-style:normal;font-weight:700;}
+.Hui-article-box{overflow: scroll;}
+.dataView{position: relative}
+.infoViewPage{display: none;position: absolute;z-index: 1000;left:0;top:0;}
+.SnipImgs img{max-width: 100px;position: relative}

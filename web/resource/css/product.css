@@ -1,0 +1,1178 @@
+.productbanner{ height:900px; }
+.productbanner .text{ width:100%;  left:0;   text-align:center; color:#fff; padding-top:14%; }
+.productbanner .text h3{ font-size:24px; line-height:40px;}
+.productbanner .text h1{ font-size:52px; line-height:70px; margin:60px 0 40px 0;}
+.productbanner.hei .text{ color:#333; padding-top:18%;}
+
+.productbanner .text.fd h1{ letter-spacing:1px;}
+.productbanner .text.fd h3{ letter-spacing:0; margin-top:20px;}
+.productbanner .text.fd h3 span{ border-bottom:2px dotted #fff; padding-bottom:5px; display:inline-block;}
+
+.productbanner .conbox{ width:1200px; margin:0 auto;}
+.productbanner .conbox .text{ text-align:left;}
+
+.productbanner .text .btn a{ background:#003da8; display:inline-block; width:190px; line-height:45px; font-size:16px; color:#fff; margin:0; }
+.productbanner .text .btn a i{ background:url(../images/xiazai.png) no-repeat; width:23px; height:21px; display:inline-block; margin-right:10px; vertical-align:-3px;}
+.productbanner p{ width:950px; margin:0 auto; font-size:20px; line-height:30px; }
+.productbanner .text .btn a.er{ width:178px; line-height:41px; border:2px solid #fff; box-sizing:border-box; background:none;}
+.productbanner .text .btn a:hover{ background:#007efe;}
+.productbanner .btn a.er:hover{ background:#007efe; color:#fff;}
+.productbanner .btn{ margin-top:40px;}
+.productbanner .downloadbtn{ position:relative; margin:0 20px 0 0; display:inline-block;}
+.productbanner .downloadbtn .hide{ position:absolute; width:100%; background:#fff; overflow:hidden; top:55px; left:0; z-index:111; display:none; box-sizing:border-box; transition:all 0.3s ease-in; border:1px solid #ccc; border-left:3px solid #007efe;}
+.productbanner .downloadbtn .hide.active{ display:block !important;}
+.productbanner .downloadbtn .hide a{ margin:0 5px; background:none; color:#003da8; font-size:14px; line-height:50px; border-bottom:1px solid #ccc; display:block;}
+.productbanner .downloadbtn .hide a:hover{ color:#007efe;}
+.productbanner .downloadbtn.hover .hide a{ background:none;}
+.productbanner .downloadbtn .hide a i{display:inline-block; width:28px; height:28px; margin-right:20px; vertical-align:-8px;}
+.productbanner .downloadbtn .hide a i.b1{ background:url(../images/xzt_07.png) no-repeat; }
+.productbanner .downloadbtn .hide a i.b2{ background:url(../images/2018/support/xzt_11.png) no-repeat;}
+.productbanner .downloadbtn .hide a:hover i.b1{ background:url(../images/2018/support/xzth_07.png) no-repeat; }
+.productbanner .downloadbtn .hide a:hover i.b2{ background:url(../images/2018/support/xzth_11.png) no-repeat;}
+.productbanner .downloadbtn .hide a:nth-last-child(1){ border:0;}
+
+.productbanner .text-center{width:1200px;margin:0 auto;text-align:left;}
+
+.cadht{ text-align:center; padding:80px 0;}
+.cadht h1{ font-size:32px; color:#003da8; line-height:40px; margin-bottom:20px;}
+.cadht p{ font-size:16px; width:1000px; margin:0 auto; color:#898989;}
+.cadht .pic{ width:595px; margin:0 auto; margin-top:40px;}
+
+.jsbox{ background:#f4f4f4; padding:40px 0;}
+.jsbox dl{ width:550px; float:left; margin:35px 100px 35px 0;}
+.jsbox dl:nth-child(2n){ margin:35px 0 35px 0;}
+.jsbox dl dt{ float:left;}
+.jsbox dl dd{ width:460px; float:right;}
+.jsbox dl dd h3{ color:#333; font-size:20px; line-height:24px;}
+.jsbox dl dd p{ color:#898989; font-size:14px; line-height:30px; margin-top:10px;}
+
+.application{ clear:both; padding:100px 0;}
+.application .txt{ width:335px; float:left; margin-top:60px;}
+.application .txt h1{ font-size:32px; line-height:40px; color:#003da8;}
+.application .txt p{ font-size:16px; color:#898989; line-height:30px; margin-top:20px;}
+.application ul{ width:740px; float:right;}
+.application ul li{ float:left; margin:0 0 20px 20px;}
+.grant{background:#f4f4f4; padding:70px 0 80px 0; }
+.grant.bai{ background:#fff;}
+.grant .top{ text-align:center; color:#666; font-size:16px;}
+.grant .top h1{ font-size:32px; line-height:40px; color:#003da8; margin-bottom:10px;}
+.grant .top p{ width:800px; margin:0 auto; padding:0 0 20px 0;}
+.grant dl{ width:360px; height:250px; float:left; text-align:center; overflow:hidden;  color:#555; margin:30px 50px 0 0; box-sizing:border-box; transition:all 0.3s ease-in; cursor:pointer;}
+.grant dl:nth-last-child(1){ margin:30px 0 0 0;}
+.grant dl dt{ width:50px; height:53px; margin: 0 auto;}
+.grant dl:nth-last-child(2) dt{ width:57px;}
+.grant dl:nth-last-child(3) dt{ width:53px;}
+
+.grant dl dd h1{ width:100%;font-size:20px; color:#333; line-height:30px; margin:30px auto 20px 0;}
+.grant dl dd p{ font-size:14px; line-height:24px; margin:0 auto;}
+.grant .con{ margin-top:30px;}
+
+.download_center{ padding:80px 0; clear:both;}
+.download_center h1{ text-align:center; font-size:32px; line-height:40px; font-weight:normal; padding:10px 0 30px 0; color:#003da8;}
+.download_center .con dl{ width:380px; height:312px; text-align:center; float:left; transition:all 0.3s ease-in; margin:30px 30px 0 0; overflow:hidden;}
+.download_center .con dl:nth-last-child(1){ margin:30px 0 0 0;}
+.download_center .con dl a{ width:100%; height:100%; display:block; overflow:hidden;}
+.download_center .con dl:hover{ background:#f5f5f5;}
+.download_center .con dl dt{ width:86px; margin:40px auto;}
+.download_center .con dl h2{ color:#333; font-size:20px; line-height:30px;}
+.download_center .con dl p{ width:90%; color:#898989; margin:10px auto 0 auto; font-size:14px; line-height:28px; text-align:left; }
+
+.download_center .conbox dl{ width:380px; height:180px; border:1px solid #c4c4c4; text-align:center; float:left; transition:all 0.3s ease-in; margin:30px 30px 0 0; overflow:hidden;}
+.download_center .conbox dl:nth-last-child(1){ margin:30px 0 0 0;}
+.download_center .conbox dl a{ width:100%; height:100%; display:block; overflow:hidden;}
+.download_center .conbox dl:hover{ background:#007efe; border:1px solid #007efe;}
+.download_center .conbox dl dt{ width:44px; height:44px; margin:40px auto 10px auto;}
+.download_center .conbox dl dt.b1{ background:url(../images/find_icon_27.png) no-repeat;}
+.download_center .conbox dl dt.b2{ background:url(../images/find_icon_05.png) no-repeat;}
+.download_center .conbox dl dt.b3{ background:url(../images/find_icon_07.png) no-repeat;}
+.download_center .conbox dl dt.b4{ background:url(../images/find_icon_08.png) no-repeat;}
+.download_center .conbox dl h2{ color:#555; font-size:20px; line-height:30px;}
+.download_center .conbox dl p{ width:90%; color:#898989; margin:0 auto; font-size:14px;}
+.download_center .conbox dl:hover h2{ color:#fff;}
+.download_center .conbox dl:hover p{ color:#fff; text-decoration:underline;}
+.download_center .conbox dl:hover dt.b1{ background:url(../images/find_icon_2.png) no-repeat;}
+.download_center .conbox dl:hover dt.b2{ background:url(../images/find_icon_30.png) no-repeat;}
+.download_center .conbox dl:hover dt.b3{ background:url(../images/find_icon_32.png) no-repeat;}
+.download_center .conbox dl:hover dt.b4{ background:url(../images/find_icon_33.png) no-repeat;}
+
+.hezuologo{overflow: hidden; clear:both; background:url(../images/dianqid_58.jpg) no-repeat center; height:130px; background-size:cover; }
+.hezuologo .app-screenshot{overflow: hidden; margin:0 auto; background-size: 100%;}
+.hezuologo .app-screenshot img{ padding-left:4px; }
+.hezuologo .carousel-indicators {position: relative;bottom: 0;left: 0;width: 100%; text-align:center; margin:0;}
+.hezuologo .carousel-indicators .active { background:url(../images/on.png) no-repeat;background-size:contain;}
+.hezuologo .carousel-indicators li {display: inline-block;margin:0 5px;width:17px;height:17px;border: none;border-radius: 0; background:url(../images/no.png) no-repeat; background-size:contain; text-indent: -999px;cursor: pointer;}
+.hezuologo .item dl{ width:100%; text-align:center; margin:50px 0 60px 0;}
+.hezuologo .item dt{ width:184px; display:inline-block; margin:0 20px;}
+.hezuologo .item dt.last{ width:237px;}
+.hezuologo .container{ overflow:hidden;}
+
+/*���ܱ�׼��*/
+.standardbanner{ height:500px;}
+.standardbanner .maincon{ padding-top:168px;}
+.standardbanner .pic{ float:left; margin-left:40px;}
+.standardbanner .text{ width:725px;margin-left:75px; float:left; color:#fff; font-size:16px; line-height:27px;}
+.standardbanner .text h1{ font-size:36px; line-height:40px; margin:40px 0 10px 0; color:#333;}
+.standardbanner .text .btn{ margin-top:40px;}
+.standardbanner .text .btn a{ background:#003da8; display:inline-block; width:180px; line-height:45px; font-size:16px; color:#fff;    text-align:center;}
+.standardbanner .text .btn a:hover{ background:#007efe}
+.standardbanner .text .btn a i{ background:url(../images/xiazai.png) no-repeat; width:23px; height:21px; display:inline-block; margin-right:10px; vertical-align:-3px;}
+
+.standardbanner .downloadbtn{ position:relative; margin:0 0; display:inline-block;}
+.standardbanner .downloadbtn .hide{ position:absolute; width:100%; background:#fff; overflow:hidden; top:55px; left:0; z-index:111; display:none; box-sizing:border-box; transition:all 0.3s ease-in; border:1px solid #ccc; border-left:3px solid #007efe;}
+.standardbanner .downloadbtn .hide.active{ display:block !important;}
+.standardbanner .downloadbtn .hide a{ margin:0 5px; background:none; color:#003da8; font-size:14px; line-height:57px; border-bottom:1px solid #ccc; display:block;}
+.standardbanner .downloadbtn .hide a:hover{ color:#007efe;}
+.standardbanner .downloadbtn.hover .hide a{ background:none;}
+.standardbanner .downloadbtn .hide a i{display:inline-block; width:28px; height:28px; margin-right:20px; vertical-align:-8px;}
+.standardbanner .downloadbtn .hide a i.b1{ background:url(../images/xzt_07.png) no-repeat; }
+.standardbanner .downloadbtn .hide a i.b2{ background:url(../images/2018/support/xzt_11.png) no-repeat;}
+.standardbanner .downloadbtn .hide a:hover i.b1{ background:url(../images/2018/support/xzth_07.png) no-repeat; }
+.standardbanner .downloadbtn .hide a:hover i.b2{ background:url(../images/2018/support/xzth_11.png) no-repeat;}
+.standardbanner .downloadbtn .hide a:nth-last-child(1){ border:0;}
+
+.standardbanner .text.col-fff{color:#fff;}
+ .standardbanner .text.col-fff h1{color:#fff;}
+
+.lineframe{ padding:120px 0;}
+.lineframe h1{ font-size:28px; line-height:32px; text-align:center;}
+.lineframe .cspan{ width:394px; height:267px; position:relative; float:left; transition:all .3s ease-out; margin:50px 9px 0 0; overflow:hidden;}
+.lineframe .cspan:hover{box-shadow:0 20px 10px -14px rgba(0,0,0,.3); -webkit-transform:translateY(-3px); transform:translateY(-3px);}
+.lineframe .cspan:nth-last-child(1){ margin:50px 0 0 0; }
+.lineframe .cspan .pic{ width:100%; height:100%; overflow:hidden; transition:all 0.3s ease-in;}
+.lineframe .cspan:hover .pic{ transform:scale(1.08);}
+.lineframe .cspan .text{ position:absolute; left:0; bottom:0; z-index:10; height:50px; background:rgba(0,61,168,.85); color:#fff; padding:0 36px; box-sizing:border-box;}
+.lineframe .cspan .text h2{ line-height:50px; font-size:18px;}
+.lineframe .cspan .text p{ font-size:14px; line-height:28px; margin:0 0 30px 0;}
+.lineframe .cspan .text h2 i{ display:inline-block; width:25px; height:19px; vertical-align:-3px; margin-right:10px;}
+.lineframe .cspan .text h2 i.b1{ background:url(../images/xianbiao_03.png) no-repeat;}
+.lineframe .cspan .text h2 i.b2{ background:url(../images/2018/support/xianbiao_07.png) no-repeat;}
+.lineframe .cspan .text h2 i.b3{ background:url(../images/xianbiao_09.png) no-repeat;}
+
+.lingjian{ background:url(../images/2018/support/zbbg.jpg) no-repeat center; background-size:cover; height:608px; clear:both; overflow:hidden;}
+.lingjian h1{ width:730px;margin:0 auto;font-size:28px; line-height:50px; text-align:center; margin-top:50px;}
+.lingjian .pic{ width:674px; margin:0 auto; margin-top:40px;}
+.lingjian.bai{ background:url(../images/2018/support/xurong.jpg) no-repeat center; background-size:cover; height:600px;}
+.lingjian.bai h1{ color:#fff; width:90%;}
+.lingjian.bai .pic{ width:497px;}
+.quick{ padding:130px 0; }
+.quick h1{ font-size:28px; line-height:32px; color:#003da8; text-align:center;}
+.quick dl{ width:200px; float:left; color:#898989; font-size:14px; margin:95px 130px 0 0;}
+.quick dl:nth-last-child(1){ margin:95px 0 0 0;}
+.quick dl dt{ width:104px; margin:0 auto;}
+.quick dl h2{ font-size:20px; line-height:30px; text-align:center; color:#333; margin:30px 0 10px 0;}
+
+.jishi{ padding:80px 0;}
+.jishi h1{ font-size:28px; line-height:32px; text-align:center; color:#003da8;}
+.jishi .con{ margin-top:50px;}
+.jishi dl{ width:283px; height:370px; position:relative; float:left; border:1px solid #d9d9d9; box-sizing:border-box; transition:all 0.3s ease-in; margin:20px 22px 0 0;}
+.jishi dl:nth-child(4n){ margin:20px 0 0 0;}
+.jishi dl dt{ border-bottom:1px solid #d9d9d9;}
+.jishi dl dd{ padding:0 25px; color:#898989; font-size:14px;}
+.jishi dl dd h2{ font-size:16px; color:#333; line-height:22px; font-weight:bold; margin:30px 0 10px 0;}
+.jishi dl:hover{ background:#003da8;}
+.jishi dl:hover dd{ color:#fff;}
+.jishi dl:hover dd h2{ color:#fff;}
+.jishi dl .new{ background:url(../images/news_icon.png) no-repeat; width:55px; height:59px; position:absolute; left:0; top:0;}
+
+/*��е����רҵ��*/
+.standardbanner .pic{ float:left; margin-left:40px;}
+.standardbanner .pic.tu1{ margin:40px 0 0 0;}
+.standardbanner.mec .text.di1{ width:580px;}
+.standardbanner .text.di1.bai{ color:#fff;}
+.standardbanner h2{ font-size:36px; line-height:40px; margin-top:100px; color:#333;}
+.major{ padding:100px 0;}
+.major .pic{ float:left;}
+.major .txt{ float:right; width:600px;}
+.major .txt h1{ font-size:24px; line-height:30px; color:#003da8; margin:90px 0 20px 0;}
+.major .txt em{ width:132px; display:block; margin-top:30px;}
+.major .txt p{ font-size:16px; color:#898989; line-height:30px;}
+.major.big,.major.hui{ background:#ebebeb;}
+.major.big .pic{ float:none; width:90%; margin:0 auto;}
+.major.big .txt{ width:100%; text-align:center; padding:0 0 50px 0;}
+.major.big .txt h1{margin-top:0;}
+.major.fan .pic{ float:right;}
+.major .txt{ float:left;}
+
+.standardbanner .text h1{ font-size:36px; line-height:40px; margin:5px 0 25px 0; color:#fff;}
+.standardbanner .text h3{ font-size:36px; line-height:40px; margin:40px 0 25px 0; font-weight:normal; color:#fff;}
+.standardbanner .text .btn{ margin-top:30px;}
+.standardbanner .text .btn a{ background:#003da8; display:inline-block; width:160px; line-height:40px; font-size:14px; color:#fff;    text-align:center;}
+.standardbanner .text .btn a:hover{ background:#007efe}
+.standardbanner .text .btn a i{ background:url(../images/xiazai.png) no-repeat; width:23px; height:21px; display:inline-block; margin-right:10px; vertical-align:-3px;}
+.standardbanner .text .btn .downloadbtn.hover>a{ background:url(../images/xzt_03.png) no-repeat left bottom #003da8;}
+
+/*�Ա�*/
+.contrast{ color:#898989; padding:100px 0;}
+.contrast.wu{ padding:30px 0 100px 0;}
+.contrast .b{ background:url(../images/dbicon_10.png) no-repeat; display:inline-block; width:10px; height:9px;}
+.contrast .top{ border-bottom:1px solid #e5e5e5; line-height:30px; padding-bottom:5px;}
+.contrast .top .b{ margin-right:10px;}
+.contrast .top h1{ font-size:30px; line-height:40px; text-align:center; color:#333; margin-bottom:70px; margin-top:70px;}
+.contrast table strong{ font-size:18px; font-weight:normal; color:#333;}
+.contrast table .title td{padding:23px 0;}
+.contrast table td{ width:19%; border-bottom:1px solid #e5e5e5; line-height:20px; padding:3px 10px;  }
+.contrast table td h2{ font-size:18px; color:#333; line-height:50px; margin-top:30px;}
+.contrast .r{ background:url(../images/dbicon_03.png) no-repeat; display:inline-block; width:9px; height:12px;}
+.contrast .w{ background:url(../images/dbicon_07.png) no-repeat; display:inline-block; width:8px; height:7px;}
+.contrast .play{ background:url(../images/play.png) no-repeat; display:inline-block; width:15px; height:15px; margin-top:3px;}
+.contrast .pk{ color:#4093ff; cursor:pointer;}
+.contrast table { position:relative;}
+.contrast table .hidebox{ width:930px;  display:none; background:#eee; position:absolute; top:30px; right:0; border-radius:6px; box-shadow:0 0 10px 0 rgba(0,0,0,0.2); padding:35px;  box-sizing:border-box; z-index:10;}
+.contrast table .left_cor,.contrast table .right_cor{ width:340px; float:left;}
+.contrast table .con_cor{ float:left; width:180px; text-align:center; color:#4093ff; font-size:60px; line-height:65px; display:table; height:100%; vertical-align:middle;}
+.contrast table .con_cor div{ display:table-cell; vertical-align:middle;}
+.contrast table .left_cor em,.contrast table .right_cor em{ display:block; float:left; width:21px; height:24px;}
+.contrast table .left_cor em{  background-size:contain;}
+.contrast table .right_cor em{ background-size:contain;}
+.contrast table .text{ width:319px; float:right;}
+.contrast table .text p{ color:#898989; text-align:left; margin-top:10px;}
+.contrast table .left_cor .text .tu{ border:4px solid #3fcc7b; box-sizing:border-box;}
+.contrast table .right_cor .text .tu{ border:4px solid #656767; box-sizing:border-box;}
+.contrast table td:nth-child(1){ width:400px;}
+
+
+
+/*��������*/
+.jzjs{ background:#f4f4f4; padding:100px 0;}
+.jzjs.bai{ background:#fff;}
+.jzjs .pic{ float:left;}
+.jzjs .txt{ float:right; width:560px;}
+.jzjs .txt h1{ font-size:32px; line-height:40px; color:#003da8; margin:60px 0 30px 0;}
+.jzjs .txt p{color:#898989; font-size:16px; line-height:28px;}
+.jzicon{ padding:60px 0 100px 0;}
+.jzicon dl{ width:350px; float:left; height:260px; overflow:hidden; margin:40px 75px 0 0; text-align:center;}
+.jzicon dl:nth-child(3n){ margin:40px 0 0 0;}
+.jzicon dl dt{ width:78px; margin:0 auto;}
+.jzicon dl h3{ font-size:20px; line-height:26px; margin-bottom:20px; font-weight:normal;}
+.biginterface .jzicon dl h3{ color:#003da8;}
+.jzicon.blue dl h3{ color:#003da8;}
+.jzicon dl p{ font-size:14px; color:#898989; line-height:28px; text-align:left;}
+.jzfabu{ background:url(../images/jznh_20.jpg) no-repeat center; height:300px; background-size:cover; text-align:center; color:#fff;}
+.jzfabu h1{ font-size:32px; line-height:50px; margin:80px 0 30px 0;}
+.jzfabu p{ font-size:16px; line-height:28px; width:1060px; margin:0 auto;}
+
+.jzman{overflow: hidden; clear:both; height:400px; background-size:cover; color:#fff; }
+.jzman .carousel-indicators {position: relative;bottom: 0;left: 0;width: 100%; text-align:center; margin:0;}
+.jzman .carousel-indicators .active { background:url(../images/on.png) no-repeat;background-size:contain;}
+.jzman .carousel-indicators li {display: inline-block;margin:0 5px;width:17px;height:17px;border: none;border-radius: 0; background:url(../images/no.png) no-repeat; background-size:contain; text-indent: -999px;cursor: pointer;}
+.jzman .item dl{ width:100%; text-align:center; margin:30px auto 0 auto;}
+.jzman .item dt{ width:82px; display:inline-block; margin:40px auto 35px auto;}
+.jzman .item dd h1{ font-size:20px; line-height:23px;}
+.jzman .item dd p{ width:820px; height:80px; margin:0 auto; margin-top:20px; font-size:14px; line-height:28px;}
+.jzman .container{ overflow:hidden;}
+.download_center_big{ background:url(../images/xzvg.png) no-repeat right bottom #f4f4f4; clear:both; height:750px;}
+.download_center .jzcon{ margin-top:50px;}
+.download_center .jzcon dl{ width:370px; height:285px; text-align:center; float:left; transition:all 0.3s ease-in; margin:30px 30px 0 0; overflow:hidden; position:relative;}
+.download_center .jzcon dl a{ width:100%; height:100%; display:block;}
+.download_center .jzcon dl:nth-last-child(1){ margin:30px 0 0 0;}
+.download_center .jzcon dl dt{ width:98px; height:98px; border-radius:50%; border:1px solid #1d53b1; background:#fff; position:absolute; top:0; left:50%; margin-left:-50px; z-index:10; text-align:center;}
+.download_center .jzcon dl dt i{width:68px; height:68px; display:block; margin:0 auto; margin-top:14px;}
+.download_center .jzcon dl dt i.b1{ background:url(../images/jzcpc_27.png) no-repeat; }
+.download_center .jzcon dl dt i.b2{ background:url(../images/jzcpc_29.png) no-repeat; }
+.download_center .jzcon dl dt i.b3{ background:url(../images/jzcpc_32.png) no-repeat; }
+.download_center .jzcon dl dt i.b4{ background:url(../images/ptcp_07.png) no-repeat; }
+.download_center .jzcon dl dt i.b5{ background:url(../images/ptcp_09.png) no-repeat; }
+.download_center .jzcon dl dt i.b6{ background:url(../images/ptcp_12.png) no-repeat; }
+.download_center .jzcon dl dd{ width:100%; height:240px;  margin-top:45px; transition:all 0.3s ease-in;  border:1px solid rgba(0,0,0,0); box-sizing:border-box;}
+.download_center .jzcon dl:hover dd{ border:1px solid #003da8; background:#fff; padding:0;}
+.download_center.hoverh .jzcon dl:hover dd{ border:1px solid #003da8; background:#ebebeb; padding:0;}
+.download_center .jzcon dl h2{ color:#333; font-size:20px; line-height:30px; margin-top:90px;}
+.download_center .jzcon dl p{ width:310px; color:#898989; margin:10px auto 0 auto; font-size:14px; line-height:28px;}
+.download_center .btmore{ color:#fff; clear:both; background:#003da8;  display:block; text-align:center; width:300px; line-height:50px; margin:0 auto; margin-top:40px; font-size:18px; transition:all 0.3s ease-in;}
+.download_center .btmore:hover{ background:#007EFE;}
+
+/*��������*/
+.jzlist1{ padding:100px 0;}
+.jzlist1hui{ background:#ebebeb;}
+.jzlist1 .txt{ width:256px; float:left; margin-top:60px;}
+.jzlist1 .txt h1{ font-size:24px; line-height:40px; font-weight:normal; color:#003da8;}
+.jzlist1 .txt p{ color:#898989; font-size:16px; line-height:28px; margin-top:30px;}
+.jzlist1 .pic{ float:right;}
+.jzlist2{ background:#ebebeb; padding:80px 0;}
+.jzlist2 .top h1{ font-size:24px; line-height:40px; font-weight:normal; color:#003da8;}
+.jzlist2 .top p{ color:#898989; font-size:16px; line-height:28px; margin-top:10px;}
+.jzlist2 .con dl{ width:590px; height:390px; overflow:hidden; margin:30px 20px 0 0; background:#fff; float:left;}
+.jzlist2 .con dl:nth-child(2n){ margin:30px 0 0 0;}
+.jzlist2 .con dl dt{ width:95%; margin:20px auto;}
+.jzlist2 .con dl dd{ width:95%; margin:0 auto;}
+.jzlist2 .con dl dd h2{ font-size:16px; color:#003da8;}
+.jzlist2 .con dl dd p{ color:#898989; font-size:14px; line-height:28px; margin-top:5px;}
+.jzlist3{ background:url(../images/list3_24.jpg) no-repeat center; background-size:cover; box-sizing:border-box; padding:80px 0;}
+.jzlist3 .top h1{ font-size:24px; line-height:40px; font-weight:normal; color:#003da8;}
+.jzlist3 .top p{ color:#898989; font-size:16px; line-height:28px; margin-top:10px;}
+
+.jzlist4{ background:#ebebeb;  padding:70px 0;}
+.jzlist4 .top h1{ font-size:24px; line-height:40px; font-weight:normal; color:#003da8;}
+.jzlist4 .top p{ color:#898989; font-size:16px; line-height:28px; margin-top:10px;}
+.jzlist4 .con{ border-top:1px dashed #999; margin-top:40px;}
+.jzlist4 .con dl{ width:550px; float:left; overflow:hidden; margin:40px 80px 0 0;}
+.jzlist4 .con dl:nth-child(2n){ margin:40px 0 0 0;}
+.jzlist4 .con dl dt{ float:left;}
+.jzlist4 .con dl dd{ float:right; width:280px; margin-top:30px;}
+.jzlist4 .con dl dd h2{ font-size:16px; color:#003da8;}
+.jzlist4 .con dl dd p{ color:#898989; font-size:14px;  margin-top:5px;}
+.jzlist5{ padding:70px 0;}
+.jzlist5 .top h1{ font-size:24px; line-height:40px; font-weight:normal; color:#003da8;}
+.jzlist5 .con{ margin-top:20px;}
+.jzlist5 .con dl{ float:left; width:380px; box-sizing:border-box; border:1px solid #fff; transition:all 0.3s ease-in; margin:20px 30px 0 0;}
+.jzlist5 .con dl:nth-child(3){margin:20px 0 0 0;}
+.jzlist5 .con dl:hover{ border:1px solid #4b76c2;}
+.jzlist5 .con dl dt{ width:85%; margin:30px auto 20px auto;}
+.jzlist5 .con dl dd{ width:85%; margin:0 auto 30px auto;}
+.jzlist5 .con dl dd h2{ font-size:16px; color:#003da8;}
+.jzlist5 .con dl dd p{ color:#898989; font-size:14px;  margin-top:5px;}
+
+
+/*ƽ̨*/
+.ptboxicon{ background:url(../images/pingtaicin.jpg) no-repeat center; background-size:cover; height:730px;}
+.ptboxicon .jzicon{ padding:40px 0 40px 0; color:#fff;}
+.ptboxicon .jzicon dl{ height:270px;}
+.ptboxicon .jzicon dl p{ color:#fff;}
+
+.ptfabu{ padding:100px 0;}
+.ptfabu .top{ text-align:center;}
+.ptfabu .top h1{ color:#003da8; font-size:32px; line-height:40px;}
+.ptfabu .top p{ font-size:16px; line-height:28px; color:#333; margin-top:15px;}
+.ptfabu .con{ margin-top:80px;}
+.ptfabu .pic{ float:left;}
+.ptfabu ul{ float:right; width:500px; color:#898989; font-size:14px; line-height:28px;}
+.standardbanner .text.mec-com h1{margin-top:100px;}
+
+
+/*产品支持*/
+
+.s_supportbg{ background:#f3f3f3;}
+.s_support{ padding-top:80px; padding-bottom:80px; }
+.s_support .title{ width:100%; clear:both; text-align:center;}
+.s_support h2{ font-size:30px; line-height:40px; color:#003da8; display:inline-block;}
+.s_support h2 span{ padding-bottom:10px; overflow:hidden; display:block;}
+.s_support h2 a{ width:100%; border-top:1px solid #003da8;  display:inline-block; clear:both; font-size:14px; margin-top:5px; }
+.s_support h2 span i{ display:inline-block; height:32px;margin-right:10px;}
+.s_support h2 span i.b1{ background:url(../images/2018/support/cad-support-install-icon.png) no-repeat; width:33px;  background-size:contain; vertical-align:-3px;}
+.s_support h2 span i.b2{ background:url(../images/2018/support/cad-support-video-icon.png) no-repeat; width:34px;  background-size:contain; vertical-align:-3px;}
+.s_support h2 span i.b3{ background:url(../images/2018/support/cad-support-userguid-icon.png) no-repeat; width:30px;  background-size:contain; vertical-align:-6px;}
+.s_support .bottom dl{ width:580px; height:160px;  box-sizing:border-box; background:#fff; display: block;  float: left;  margin:40px 40px 0 0;overflow: hidden;}
+.s_support .bottom dl:hover{ box-shadow:0 0 30px 0 rgba(0,14,84,0.2);}
+.s_support .bottom dl:nth-child(2n){ margin:40px 0 0 0;}
+.s_support .bottom dt{ width:159px; height:100%; box-sizing:border-box;  overflow: hidden; float:left; position:relative;}
+.s_support .bottom dt a{ background:url(../images/2018/support/xiaozhichi_26.png) no-repeat center; display:block; width:100%; height:100%;}
+.s_support .bottom dd{    width: 419px;height: 100%;box-sizing: border-box;font-size: 14px;color: #999;line-height: 20px;float: left;padding:18px;text-align: left;}
+.s_support .bottom dd h4{ height:40px;color:#333; font-size:18px; font-weight:normal; margin-bottom:10px;display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;}
+.s_support .bottom dd span{ display:block; margin-top:15px;}
+.s_support .bottom dd span a{ color:#1296db; margin-right:20px;}
+.s_support .bottom dd span a:hover{ color:#003da8;}
+.s_support .bottom dd span a i{ display:inline-block; width:22px; height:21px; margin-right:10px; vertical-align:-6px;}
+.s_support .bottom dd span a i.b1{ background:url(../images/xiaozhichi_14.png) no-repeat;width:19px;}
+.s_support .bottom dd span a i.b2{ background:url(../images/xiaozhichi_16.png) no-repeat; }
+.s_support .bottom dd span a i.b3{ background:url(../images/xiaozhichi_29.png) no-repeat;}
+.s_support .bottom dd p{   height:39px; display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;}
+.s_support .bottom dl:hover dd{ border:1px solid #fff;}
+.s_support .bottom dl { width: 580px; height: 160px; border: 1px solid #c4c4c4; box-sizing: border-box;
+    background: #fff; display: block; float: left; margin: 40px 40px 0 0; overflow: hidden;}
+
+.s_support .bottom dl:hover {
+    box-shadow: 0 0 30px 0 rgba(0, 14, 84, 0.2);
+}
+
+.s_support .bottom dl:nth-child(2n) {
+    margin: 40px 0 0 0;
+}
+
+@media screen and (max-width:1600px) {
+.productbanner{ height:800px;}
+.productbanner .text{ padding-top:14%;}
+.productbanner.hei. text{ padding-top:12%;}
+}
+@media screen and (max-width:1450px) {
+.productbanner{ height:700px;}
+.productbanner .text{ padding-top:13%;}
+.productbanner.hei .text{ padding-top:16%}
+.standardbanner .text h1{ font-size:32px; line-height:35px; margin:40px 0 20px;}
+
+}
+@media screen and (max-width:1230px) {
+    .s_support .bottom dl:nth-child(2n){
+        margin: 30px 0 0 0;
+    }
+    .s_support .bottom dl{width: 48%;
+        margin: 30px 4% 0 0;}
+    .s_support .bottom dd{width:58%;}
+    .s_support .bottom dd h4{height:60px;-webkit-line-clamp: 3;}
+    .s_support .bottom dd span a{margin-right:10px;}
+.productbanner{ height:600px;}
+.productbanner .text{ padding-top:12%;}
+.productbanner .text .btn a{ width:180px; line-height:45px; font-size:16px;}
+.productbanner .conbox{ width:90%; position:relative; z-index:1000;}
+.jsbox dl{ width:49%; float:left; margin:35px 2% 35px 0;}
+.jsbox dl:nth-child(2n){ margin:35px 0 35px 0;}
+.jsbox dl dt{ width:12%;}
+.jsbox dl dd{ width:83%;}
+.application .txt{ width:27.9%; margin-top:0;}
+.application .txt h1{ font-size:30px; line-height:32px;}
+.application .txt p{ font-size:14px; line-height:28px;}
+.application ul{ width:61%; }
+.application ul li{ width:47%; float:left; margin:0 0 20px 3%;}
+.grant dl{ width:32%;   margin:30px 2% 0 0; }
+
+.download_center .con dl{ width:32%; margin:30px 2% 0 0; }
+.download_center .jzcon dl{ width:32%; margin:30px 2% 0 0; }
+.download_center .jzcon dl h2{ font-size:22px; margin-top:80px;}
+.download_center .jzcon dl p{ width:90%;}
+
+.download_center .conbox dl{ width:32%; margin:30px 2% 0 0; }
+
+.standardbanner .pic{ width:20%; margin-left:0;}
+.standardbanner .text{ width:60%; }
+.standardbanner .pic.tu1{ width:20%;}
+.standardbanner .text.di1{ width:70%;}
+.standardbanner.mec .text.di1{ width:70%;}
+.standardbanner .text h1{margin:35px 0 10px 0;}
+.standardbanner .text h2{ font-size:32px;}
+.standardbanner .text .btn{ margin-top:20px;}
+.lineframe .cspan{ width:31.3333333%;  margin:50px 3% 0 0; overflow:hidden;}
+.quick dl{ width:20%;  margin:95px 6.666666% 0 0;}
+.jishi dl{ width:24%;  margin:20px 1.33333333333% 0 0;}
+.jishi dl:nth-child(4n){ margin:20px 0 0 0;}
+.major .pic{ width:45%;}
+.major .txt { width:50%;}
+.major .txt h1{  margin:0 0 20px 0;}
+.major.big .pic{ width:100%; }
+.major.big .txt{ width:100%; }
+.productbanner p{ width:90%; font-size:16px; line-height:24px;}
+.jzjs{ padding:100px 0;}
+.jzjs .pic{ width:40%;}
+.jzjs .txt{ width:50%;}
+.jzjs .txt h1{ font-size:32px; line-height:40px;  margin:0 0 10px 0;}
+.jzicon dl{ width:31.3333333%;  margin:40px 3% 0 0; height:290px; }
+.jzfabu h1{ font-size:30px; line-height:40px; margin:80px 0 30px 0;}
+.jzfabu p{ font-size:16px; line-height:28px; width:100%;}
+.jzman .item dd p{ width:90%; font-size:16px; line-height:22px;}
+
+.jzlist1 .txt{ width:26%; margin-top:0;}
+.jzlist1 .txt h1{ font-size:22px; line-height:38px;}
+.jzlist1 .pic{ width:68%;}
+.jzlist2 .top h1{ font-size:22px; line-height:38px;}
+.jzlist2 .con dl{ width:49%; height:auto; padding-bottom:20px;  margin:30px 2% 0 0;  }
+.jzlist3 .top h1{ font-size:22px; line-height:38px;}
+.jzlist4 .top h1{ font-size:22px; line-height:38px;}
+.jzlist4 .con dl{ width:49%;   margin:30px 2% 0 0;}
+.jzlist4 .con dl:nth-child(2n){ margin:30px 0 0 0;}
+.jzlist4 .con dl dt{ width:35%; float:left;}
+.jzlist4 .con dl dd{ width:60%; margin-top:0;}
+.jzlist5 .top h1{ font-size:22px; line-height:38px;}
+.jzlist5 .con dl{  width:30.3333333%; margin:20px 1.5% 0 0;}
+
+
+.contrast table .hidebox{ width:90%; padding:15px;}
+.contrast table .left_cor,.contrast table .right_cor{ width:100%; float:none; margin:0 auto;}
+.contrast table .con_cor{ float:none; width:100%;  font-size:20px; line-height:30px; display:table; height:auto;}
+.contrast table .text{ width:90%; float:left; }
+.ptfabu .con{ margin-top:50px;}
+.ptfabu .pic{ width:40%;}
+.ptfabu ul{ width:50%; line-height:25px;}
+}
+
+@media screen and (max-width:1030px) {
+    .s_support .bottom dl{height:200px;}
+.productbanner{ height:500px;}
+.productbanner .text{ padding-top:12%;}
+.hezuologo .item dt{ width:22%; display:inline-block; margin:0 1%;}
+.lineframe .cspan .text p{ font-size:14px; line-height:24px;}
+.download_center .conbox dl h2{ font-size:16px; }
+.grant .top p{ width:90%;}
+.productbanner .text h1{margin-bottom:10px;font-size: 36px;}
+.productbanner .btn{margin-top:20px;}
+}
+@media screen and ( max-width:850px ) {
+.productbanner{ height:400px;}
+.productbanner .text{ padding-top:14%;}
+.productbanner .text h3{ font-size:20px; line-height:30px;}
+.productbanner .text h1{ font-size:40px; line-height:50px; margin:10px 0;}
+.productbanner .text .btn a{ width:160px; line-height:50px; font-size:15px;}
+.productbanner .text .btn a.er{ width:156px; line-height:46px; font-size:15px;}
+.productbanner .downloadbtn .hide{ top:55px;}
+.cadht{ padding:50px 0;}
+.cadht h1{ font-size:28px; line-height:35px; margin-bottom:10px;}
+.cadht p{ font-size:14px;}
+.cadht .pic{ margin-top:20px;}
+.jsbox dl dd h3{ font-size:18px; line-height:22px;}
+.jsbox dl dd p{ font-size:14px; line-height:28px; }
+.grant{  padding:60px 0; }
+.grant .top{ font-size:14px;}
+.grant .top h1{ font-size:28px; line-height:35px;}
+.download_center h1{font-size:28px; line-height:35px;}
+.download_center{  padding:60px 0; }
+.standardbanner{ margin-top:50px;}
+.standardbanner .maincon{ padding-top:140px;}
+.lineframe .cspan{ width:45%;  margin:30px 10% 0 0; overflow:hidden;}
+.lineframe .cspan:nth-last-child(2){ margin:30px 0 0 0; }
+.lineframe .cspan:nth-last-child(1){ margin:30px 0 0 0; }
+
+.jishi dl{ width:45%;  margin:20px 2.5% 0 2.5%;}
+.jishi dl:nth-child(4n){ margin:20px 2.5% 0 2.5%;}
+.major .txt h1{ font-size:20px; margin:0 0 10px 0;}
+.jzjs{ padding:60px 0;}
+.jzicon dl{ width:45%;  margin:40px 2.5% 0 2.5%; height:250px; }
+.jzicon dl:nth-child(3n){ margin:40px 2.5% 0 2.5%;}
+.jzicon dl h3{ font-size:20px; line-height:22px; }
+.jzicon dl p{ font-size:14px; line-height:26px;}
+.jzman .item dl{ margin:40px auto 0 auto;}
+.jzman .item dl p{ margin-top:20px; font-size:16px;}
+
+.ptboxicon{ height:auto;  }
+.ptboxicon .jzicon{ padding:60px 0 100px 0; color:#fff;}
+.ptboxicon .jzicon dl{ height:auto; margin:20px auto;}
+.cadht p{ width:100%;}
+}
+@media screen and (max-width:769px) {
+    .s_support .bottom dl{
+        width: 100%;
+        margin: 20px auto 0 auto;
+        float: none;
+    }
+.productbanner{ height:350px;}
+.productbanner .text{ padding-top:16%;}
+.productbanner .text h3{ font-size:16px; line-height:22px;}
+.productbanner .text h1{ font-size:30px; line-height:40px; margin:10px 0;}
+.productbanner .text .btn a{ width:140px; line-height:40px; font-size:12px;}
+.productbanner .text .btn a.er{ width:136px; line-height:36px;  }
+.productbanner .btn{ margin-top:10px;}
+.productbanner .downloadbtn .hide{ top:45px;}
+.productbanner .downloadbtn .hide a i{ width:20px; height:20px; margin-right:5px; vertical-align:-4px;}
+.productbanner .downloadbtn .hide a i.b1{ background:url(../images/xzt_07.png) no-repeat; background-size:20px 20px; }
+.productbanner .downloadbtn .hide a i.b2{  background-size:20px 20px;}
+.productbanner .downloadbtn .hide a:hover i.b1{ background-size:20px 20px; }
+.productbanner .downloadbtn .hide a:hover i.b2{ background-size:20px 20px;}
+
+.cadht .pic{ width:80%;}
+.jsbox{ padding:30px 0;}
+.jsbox dl{ width:100%; float:none; margin:20px 0; overflow:hidden;}
+.jsbox dl:nth-child(2n){ margin:20px 0;}
+.jsbox dl dt{ width:10%;}
+.application{ padding:30px 0;}
+.application .txt{ width:100%; margin-top:0; clear:both; float:none;}
+.application .txt h1{ font-size:26px; line-height:30px;}
+.application ul{ width:100%; float:none; margin-top:20px; }
+.application ul li{ width:47%; float:left; margin:0 1.5% 20px 1.5%;}
+.grant .top h1{ font-size:22px; line-height:32px;}
+.download_center h1{font-size:22px; line-height:32px;}
+.download_center .con dl h2{ font-size:19px; height:50px;}
+
+
+.cadht h1{ font-size:22px; line-height:35px;}
+.cadht{ padding:30px 0;}
+.grant{  padding:50px 0; }
+.grant dl dd h1{ font-size:19px;}
+.grant dl{ width:100%; float:none; height:auto; padding-bottom:30px; margin:0 auto; }
+.grant dl:nth-last-child(1){ margin:20px auto 0 auto;}
+.grant .con{ margin-top:0;}
+.grant .top h1{ font-size:24px;}
+.download_center h1{ font-size:24px;}
+.application .txt h1{ font-size:24px;}
+.download_center{  padding:50px 0; }
+.download_center .con dl{ width:100%; height:auto; float:none;  margin:20px auto 0 auto; padding-bottom:30px; }
+.download_center .con dl:nth-last-child(1){ margin:20px auto 0 auto;}
+
+.download_center .conbox dl{ width:100%; height:auto; float:none;  margin:20px auto 0 auto; padding-bottom:30px; }
+.download_center .conbox dl:nth-last-child(1){ margin:20px auto 0 auto;}
+
+.download_center dl h2{ font-size:19px;}
+.download_center_big{ height:auto; padding-bottom:50px;}
+.download_center .jzcon{ margin-top:0;}
+.download_center .jzcon dl{ width:100%;float:none; height:250px; margin:20px auto 0 auto; }
+.download_center .jzcon dl:nth-last-child(1){ margin:20px auto 0 auto;}
+.download_center .jzcon dl h2{ font-size:19px; margin-top:70px;}
+.download_center .jzcon dl dd{  height:205px;}
+
+.standardbanner .maincon{ padding-top:100px;}
+.standardbanner .pic{ width:40%; float:none; margin:0 auto;}
+.standardbanner .text{ width:100%; float:none;  font-size:16px; line-height:24px; margin-top:30px;}
+.standardbanner .text .btn{ margin-top:10px; text-align:center;display: block}
+.standardbanner .downloadbtn .hide{ top:55px;}
+.standardbanner .downloadbtn .hide a{ line-height:40px;}
+.standardbanner .downloadbtn .hide a i{display:inline-block; width:20px; height:20px; margin-right:10px; vertical-align:-4px;}
+.standardbanner .downloadbtn .hide a i.b1{ background:url(../images/xzt_07.png) no-repeat; background-size:20px 20px; }
+.standardbanner .downloadbtn .hide a i.b2{  background-size:20px 20px;}
+.standardbanner .downloadbtn .hide a:hover i.b1{  background-size:20px 20px; }
+.standardbanner .downloadbtn .hide a:hover i.b2{ background-size:20px 20px;}
+
+.standardbanner .text .btn a{  width:140px; line-height:40px; font-size:16px;}
+.standardbanner .text h1{ font-size:28px; text-align:center; line-height:30px; margin:10px 0;}
+.standardbanner .text h2{ font-size:28px; text-align:center; margin-top:50px;}
+.standardbanner .text a{ display:block; margin:10px auto;}
+.standardbanner .pic.tu1{ width:24%; margin:0 auto;}
+.standardbanner .text.di1{ width:100%;}
+.standardbanner.mec .text.di1{ width:100%;}
+
+.lineframe{ padding:30px 0;}
+.lineframe h1{ font-size:19px; line-height:28px; }
+.lineframe .cspan{ width:100%;  margin:30px auto 0 auto; overflow:hidden;}
+.lineframe .cspan:nth-last-child(2){ margin:30px auto 0 auto; }
+.lineframe .cspan:nth-last-child(1){ margin:30px auto 0 auto; }
+.lingjian h1{ width:90%; font-size:19px; line-height:30px;  margin-top:30px;}
+.lingjian .pic{ width:80%; margin:0 auto; margin-top:20px;}
+.lingjian{ height:400px;}
+.quick{ padding:30px 0; }
+.quick h1{ font-size:19px; line-height:28px;}
+.quick dl{ width:46%;  margin:30px 2% 0 2%;}
+.quick dl:nth-last-child(1){ margin:30px 2% 0 2%;}
+.lingjian.bai .pic{ width:90%;}
+.jishi{ padding:30px 0;}
+.jishi h1{ font-size:19px; line-height:28px;}
+.jishi .con{ margin-top:0;}
+.major{ padding:30px 0;}
+.major .pic{ float:none; width:90%; margin:0 auto;}
+.major .txt { width:100%; margin:0 auto; float:none; clear:both;}
+.major .txt h1{  margin:0 0 20px 0;}
+.major .txt h1{ font-size:18px; margin:10px 0 5px 0;}
+.major .txt p{ font-size:14px; line-height:28px;}
+
+.contrast{ padding:30px 0;}
+.contrast.wu{ padding:0 0 30px 0;}
+.contrast .top h1{ font-size:20px; line-height:30px; margin:30px 0;}
+.contrast table .title td{padding:10px 15px;}
+.contrast table .title td{padding:23px 0;}
+.contrast table td{  padding:3px 10px;  }
+.contrast table td h2{ font-size:15px; line-height:30px; margin-top:10px;}
+.contrast table strong{ font-size:15px;}
+.jzjs{ padding:30px 0;}
+.jzjs .pic{ width:80%; float:none; margin:0 auto;}
+.jzjs .txt{ width:100%; float:none; clear:both; margin-top:20px;}
+.jzjs .txt h1{ font-size:24px; line-height:30px;  margin:0 0 10px 0;}
+.jzjs .txt p{ font-size:14px; line-height:26px;}
+.jzlist1{ padding:30px 0;}
+.jzlist1 .txt{ width:100%; margin-top:0; float:none;}
+.jzlist1 .txt h1{ font-size:20px; line-height:32px;  float:none;}
+.jzlist1 .txt p{ margin-top:15px;}
+.jzlist1 .pic{ width:100%; margin-top:20px; float:none;}
+.jzlist2{ padding:30px 0;}
+.jzlist2 .top h1{ font-size:20px; line-height:32px;}
+.jzlist2 .top p{  margin-top:15px;}
+.jzlist2 .con dl{ width:100%; float:none; height:auto; padding-bottom:20px;  margin:20px auto 0 auto;  }
+.jzlist2 .con dl:nth-child(2n){ margin:20px auto 0 auto;}
+.jzlist3{ padding:30px 0;}
+.jzlist3 .top h1{ font-size:20px; line-height:32px;}
+.jzlist3 .top p{  margin-top:15px;}
+.jzlist4{ padding:30px 0;}
+.jzlist4 .top h1{ font-size:20px; line-height:32px;}
+.jzlist4 .top p{  margin-top:15px;}
+.jzlist5{ padding:30px 0;}
+.jzlist5 .top h1{ font-size:20px; line-height:32px;}
+.jzlist5 .top p{  margin-top:15px;}
+.jzlist5 .con{ margin:0;}
+.jzlist5 .con dl dt{ margin:10px auto;}
+.jzlist5 .con dl{  width:100%; margin:20px auto 0 auto; float:none;}
+.jzlist5 .con dl:nth-child(3){margin:20px auto 0 auto;}
+.contrast table td:nth-child(1){ width:50%;}
+
+.ptfabu{ padding:50px 0;}
+.ptfabu .top{ text-align:center;}
+.ptfabu .top h1{ font-size:24px; line-height:30px;}
+.ptfabu .top p{ font-size:16px; line-height:22px; }
+.ptfabu .con{ margin-top:20px;}
+.ptfabu .pic{ float:none; width:80%; margin:0 auto 20px auto}
+.ptfabu ul{ float:none; width:100%; font-size:14px; line-height:30px;}
+.productbanner .downloadbtn{ margin:0 5px 0 0;}
+.productbanner .text.fd h1{ letter-spacing:0;}
+.productbanner .text.fd h3{ letter-spacing:0; margin-bottom:20px;}
+.standardbanner .text{margin-left:0;}
+.standardbanner .text.mec-com h1{margin-top:20px;}
+}
+
+@media screen and (max-width:650px) {
+
+.jzicon dl{ height:280px; }
+}
+
+@media screen and (max-width:560px) {
+
+.jzicon dl{ height:330px; }
+}
+
+@media screen and (max-width:480px) {
+.standardbanner{ height:450px;}
+.productbanner .text{ padding-top:37%;}
+.productbanner{ height:450px;}
+.productbanner .text p{ font-size:12px; line-height:20px;}
+.productbanner .text .btn a{ width:140px; line-height:34px; font-size:12px;}
+.productbanner.hei .text{ padding-top:37%;}
+.hezuologo{ height:auto;}
+.hezuologo .item dl{ margin:10px 0 20px 0;}
+.hezuologo .item dt{ width:45%; display:inline-block; margin:15px 1%;}
+.lingjian.bai{ height:400px;}
+.jishi dl{ width:100%;  margin:20px auto 0 auto;}
+.jishi dl:nth-child(4n){ margin:20px auto 0 auto;}
+.jzicon{ padding:20px 0;}
+.jzicon dl{ width:100%;  margin:10px auto; float:none; height:auto;}
+.jzicon dl:nth-child(3n){ margin:10px auto;}
+.jzicon dl h3{ margin-bottom:5px;}
+.jzfabu h1{ font-size:24px; margin:60px 0 10px 0;}
+.jzfabu p{ font-size:14px; line-height:26px; }
+.jzfabu{ height:400px;}
+.jzman .item dl p{ margin-top:10px; font-size:16px; height:180px;}
+.jzlist4 .con dl{ width:100%; float:none; margin:30px auto 0 auto;}
+.jzlist4 .con dl:nth-child(2n){ margin:30px auto 0 auto;}
+.standardbanner .pic{ width:50%;}
+.standardbanner .pic.tu1{ width:30%;}
+.standardbanner .text{ font-size:14px;}
+.standardbanner .text h2{ font-size:22px;}
+.standardbanner .text h1{ font-size:22px;}
+.standardbanner .text .btn a{ width:140px; height:40px;}
+.productbanner .text h1{font-size:20px;}
+.productbanner .text.mec h3{font-size:12px;}
+    .standardbanner .maincon{padding-top:70px;}
+}
+
+@media screen and (max-width:380px) {
+.standardbanner .text h1{ font-size:20px; text-align:center;}
+
+}
+
+
+
+/*����*/
+.bigstandardbanner{ height:560px; position:relative;}
+.bigstandardbanner .maincon{ padding-top:200px;}
+.bigstandardbanner .pic{ float:left; margin-left:0;}
+.bigstandardbanner .text{ width:915px; float:right; color:#333; font-size:16px; line-height:27px;}
+.bigstandardbanner .text h1{ font-size:36px; line-height:40px; margin:10px 0; }
+.bigstandardbanner .text .btn{ margin-top:30px;}
+.bigstandardbanner .text .btn a{ background:#003da8; display:inline-block; width:160px; line-height:40px; font-size:14px; color:#fff; text-align:center;}
+.bigstandardbanner .text .btn a:hover{ background:#007efe; color:#fff;}
+
+.bigstandardbanner .text .btn a i{ background:url(../images/xiazai.png) no-repeat; width:23px; height:21px; display:inline-block; margin-right:10px; vertical-align:-3px;}
+.bigstandardbanner .text .btn a:hover i{ background:url(../images/xiazai.png) no-repeat; width:23px; height:21px; display:inline-block; }
+/*.bigstandardbanner .text .btn .downloadbtn.hover>a{ background:url(../images/xzt_03.png) no-repeat left bottom #003da8; color:#fff;}*/
+.bigstandardbanner .text .btn a.hover i{ background:url(../images/xiazai.png) no-repeat; width:23px; height:21px; display:inline-block; }
+.bigstandardbanner .text .btn .downloadbtn.hover>a i{ background:url(../images/xiazai.png) no-repeat; width:23px; height:21px; display:inline-block; }
+.bigstandardbanner .downloadbtn{ position:relative; margin:0 10px 0 0; display:inline-block;}
+.bigstandardbanner .downloadbtn .hide{ position:absolute; width:100%; background:#fff; display:none; overflow:hidden; top:55px; left:0; z-index:111;   transition:all 0.3s ease-in; box-sizing:border-box; transition:all 0.3s ease-in; border:1px solid #ccc; border-left:3px solid #007efe;}
+.bigstandardbanner .downloadbtn .hide.active{ display:block;}
+.bigstandardbanner .downloadbtn .hide a{ margin:0 5px; background:none; color:#003da8; font-size:14px; line-height:57px; border-bottom:1px solid #ccc; display:block;}
+.bigstandardbanner .downloadbtn .hide a:hover{ color:#007efe;}
+.bigstandardbanner .downloadbtn.hover .hide a{ background:none;}
+.bigstandardbanner .downloadbtn .hide a i{display:inline-block; width:28px; height:28px; margin-right:20px; vertical-align:-8px;}
+.bigstandardbanner .downloadbtn .hide a i.b1{ background:url(../images/xzt_07.png) no-repeat; }
+.bigstandardbanner .downloadbtn .hide a:nth-last-child(1){ border:0;}
+.bigstandardbanner .nav{ width:100%; height:60px; background:rgba(20,41,85,0.7); text-align:center; clear:both; position:absolute; left:0; bottom:0;}
+.bigstandardbanner .nav a{ color:#fff; margin:0 20px; font-size:18px; line-height:58px; display:inline-block;}
+.bigstandardbanner .nav a:hover{color:#3399ff;}
+.bigstandardbanner .nav a.curr{ color:#3399ff; border-bottom:2px solid #007efe;}
+
+.interface1{ margin-top:90px; clear:both;}
+.interface1 .text h3{ font-weight:normal; color:#003da8; font-size:24px; line-height:36px;}
+.interface1 .text{ width:385px; float:left;  color:#666; line-height:30px; margin:20px 0 0 50px;}
+.interface1 .text.xiao{ margin:0 0 0 50px;}
+.interface1 .text p{ margin-top:20px; font-size:16px;}
+.interface1 img{ width:auto;}
+.interface1 .pic{ width:704px; float:right;}
+.interface1 .pic img{ width:100%;}
+.biginterface{ background:#f5f5f5; clear:both;}
+.biginterface.tu{ background:url(../images/tubeijd_11.jpg) no-repeat center; padding-bottom:80px; background-size:cover;}
+.biginterface.tu1{ background:url(../images/tubeijd_14.jpg) no-repeat center bottom; padding-bottom:80px; background-size:cover;}
+
+.interface1.fan .text{ float:right; margin:80px 50px 0 0;}
+.interface1.fan .pic{ float:left;}
+
+.interfixbox{ padding:60px 0 100px 0;}
+.interfixbox h2{ text-align:center; color:#003da8; font-size:24px; line-height:24px; }
+.interfixbox dl{ width:235px; float:left; overflow:hidden; margin:40px 86px 0 0; text-align:center;}
+.interfixbox dl:nth-child(4n){ margin:40px 0 0 0;}
+.interfixbox dl dt{ width:64px; margin:0 auto 40px auto;}
+.interfixbox dl h3{ font-size:20px; color:#003da8; line-height:26px; margin-bottom:10px; font-weight:normal;}
+.interfixbox dl p{ font-size:14px; color:#666; line-height:24px; text-align:left;}
+
+.image_text{ padding:70px 0; overflow:hidden; clear:both;}
+.image_text .text h3{ font-weight:normal; color:#003da8; font-size:24px; line-height:36px;}
+.image_text .text{ width:415px; float:left;  color:#666; line-height:30px; }
+.image_text .text.xiao{ margin:100px 0 0 0;}
+.image_text .text.xiao1{ margin:40px 0 0 0;}
+.image_text .text p{ margin-top:20px; font-size:16px;}
+.image_text .text .t{ margin-bottom:35px; overflow:hidden;}
+.image_text .pic{  float:right; margin:0 50px 0 0;}
+.image_text .pic img{ width:auto;}
+
+.image_text.fan .text{ float:right; }
+.image_text.fan .pic{ float:left; margin:0 0 0 50px;}
+
+.image_textup{ text-align:center; overflow:hidden; padding:60px 0;}
+.image_textup img{ width:auto;}
+.image_textup .text h3{ font-weight:normal; color:#003da8; font-size:24px; line-height:26px;}
+.image_textup .text p{ width:900px; margin:20px auto 0 auto; color:#666; line-height:28px; font-size:16px;}
+.image_textup .pic{ margin-top:60px;}
+
+.new_type{ padding:40px 0;}
+.new_type a.fancybox-button{width:100%;}
+.new_type h5{ font-size:22px; color:#333;  margin:60px 0 10px 30px; font-weight:600;}
+.new_type dl{ float:left; width:300px; height:325px; overflow:hidden; box-sizing:border-box; padding:30px 33px; transition:all 0.3s ease-in;}
+.new_type dl:hover{  background:#fff; box-shadow:0 2px 20px 0 rgba(0,0,0,0.2);}
+.new_type dl dt{ border:1px solid #000867;}
+.new_type dl dd{ color:#999; font-size:14px; line-height:20px;text-align: left;}
+.new_type dl dd h2{ font-size:18px; color:#333;  margin:20px 0 10px 0; letter-spacing:-1px;}
+.new_type dl dd h2 i{ background:url(../images/bo_16.jpg) no-repeat; display:inline-block; width:18px; height:18px; margin-right:10px; vertical-align:-3px;}
+.new_type dl:hover dd h2{ color:#003da8; text-decoration:underline;}
+.new_type dl:hover dd h2 i{ background:url(../images/bo_18.jpg) no-repeat;}
+
+.linexubox{ background:url(../images/line_xu.jpg) no-repeat center; width:100%; height:1px;}
+
+.pic_tan{ width:850px; display:none; box-sizing:border-box; overflow:hidden; padding:30px 50px; background:#fff; text-align:center; }
+.fancybox-slide .pic_tan{margin-top: 94px;margin-bottom: 0;}
+.pic_tan dl{ width:248px; float:left; margin-top:60px; box-sizing:border-box;}
+.pic_tan dl dt{ border:1px solid #000867;}
+.pic_tan dl dd{ color:#999; font-size:14px; line-height:20px; text-align:left;}
+.pic_tan dl dd h2{ font-size:18px; color:#003da8;  margin:20px 0 10px 0;}
+.pic_tan .tu{ width:605px; border:1px solid #000867; box-sizing:border-box; float:right;}
+.pic_tan .con .top{ background:#090c19; height:40px; line-height:40px; box-sizing:border-box; color:#fff; text-align:left; padding-left:20px; font-size:18px;}
+.pic_tan .con .top span{ margin-left:20px; font-size:12px;}
+.pic_tan .con p{ font-size:14px; line-height:20px; text-align:left; margin-top:10px;}
+.pic_tan .con .picbig video{width:100%;}
+
+/* watch video learn more��ť��ʽ */
+
+.watchMorebtn a{border-radius:0;text-align:center;width:150px;color:#fff;height:37px;background-color:#003da8;font-size:16px;margin:20px 20px 10px;}
+.watchMorebtn a:hover{background-color:#007efe;}
+.watchMorebtn a:first-child{margin-left:0;}
+
+/*-------Page---------25 years anniversary-------*/
+
+/* banner */
+.active_wrapper{position:relative;height:832px;margin-top:68px;overflow: hidden;background: url(../images/anniversary/bg.png) no-repeat center; background-size: cover;}
+.active_wrapper .title{height:30px;font-size:36px;color:#fff;position:absolute;bottom:175px;width:100%;text-align:center;}
+
+/* active_wrapper_1 25 years of persistence  */
+.active_wrapper_1{height:504px;overflow: hidden;background: url(../images/anniversary/bg_1.png) no-repeat center; background-size: cover;}
+.anniversary_main{width:1200px;margin:0 auto;font-family:"Arial Regular";}
+.anniversary_main .main_left{float:left;}
+.anniversary_main .main_right{float:right;}
+.active_wrapper_1 .main_left{width:722px;;float:left;padding-top:180px;}
+.anniversary_main .main_right .video ,.anniversary_main .main_left .video{width:350px;height:225px;padding-top:137px;margin-right:40px;}
+.anniversary_main .main_left h2 ,.anniversary_main .main_right h2{font-size:26px;height:26px;line-height:26px;color:#333;margin-bottom:30px;}
+.anniversary_main .main_left p ,.anniversary_main .main_right p{width:100%;font-size:14px;color:#666;line-height:24px;}
+.anniversary_main .main_right .video a ,.anniversary_main .main_left .video a{width:100%;position:relative;height:100%;}
+.anniversary_main .video a span{background:url(../images/anniversary/play.png)no-repeat;width:80px;height:80px;display:block;position:absolute;left:50%;top:50%;margin:-40px 0 0 -40px;background-size: cover;transition:all .5s ease;}
+.anniversary_main .video a:hover span{background:url(../images/anniversary/play_hover.png)no-repeat;background-size: cover;transition:all .5s ease;}
+
+/* active_wrapper_buy */
+.active_wrapper_buy{height:70px;background-color:#007efe;}
+.anniversary_main .center{margin:0 auto;text-align:center;}
+.active_wrapper_buy h3{font-size:16px;font-weight:400;line-height:70px;display:inline-block;color:#fff;}
+.active_wrapper_buy h3 span{margin-left:25px;font-size:18px;font-weight:700;}
+.anniversary_main a.buy{display:inline-block;color:#fff;text-align:center;font-size:16px;margin-top:17px;margin-left:42px;width:108px;height:33px;line-height:33px;border:1px solid #fff;border-radius:2px;}
+.anniversary_main a.buy:hover{color:#007efe;background-color:#fff;transition:all .5s ease;}
+
+/*active_wrapper_2 Get started with GstarCAD 2018 */
+.anniversary_main .conbox .text{text-align:center;overflow: hidden;padding-top:0;}
+.active_wrapper_2{height:600px;background: url(../images/anniversary/bg_2.png) no-repeat center; background-size: cover;}
+.anniversary_main .text h1{margin-top:160px;height:32px;line-height:32px;margin-bottom:20px;font-size:32px;letter-spacing: 0;font-weight:700;font-family:"Arial Bold"}
+.anniversary_main .text span.line{display:block;height:2px;width:80px;background-color:#fff;margin:0 auto;}
+.anniversary_main .text h5{margin:60px auto 0;width:750px;font-familt:"Arial Regular";font-size:14px;line-height:20px;}
+.anniversary_main .text .btn{width:388px;margin: 80px auto 0;}
+.anniversary_main .text .btn a.downloadbtn{display:block;float:left;width:160px;height:40px;line-height:40px;background-color:#007efe;font-size:16px;border-radius:3px;float:left;transition:all .5s ease;}
+.anniversary_main .text a:last-child{margin-left:68px;background-color:#007efe;}
+.anniversary_main .text .btn a.downloadbtn:hover{background-color:#45a1ff;transition:all .5s ease;}
+
+/* active_wrapper_3 Happy birthday, Gstarsoft !   */
+.active_wrapper_3{height:501px;overflow: hidden;background: url(../images/anniversary/bg_3.png) no-repeat center; background-size: cover;}
+.anniversary_main .main_left .video{float:left;}
+ .active_wrapper_3 .main_right{padding-top:198px;width:722px;}
+
+/* DWG FastView for everyone   */
+.active_wrapper_4{height:601px;overflow: hidden;background: url(../images/anniversary/bg_4.png) no-repeat center; background-size: cover;}
+
+/* active_wrapper_5 */
+.active_wrapper_5{text-align:center;height:auto;overflow: hidden;background: url(../images/anniversary/bg_3.png) no-repeat center; background-size: cover;}
+.active_wrapper_5_left_cont ,.active_wrapper_5_right_cont{color:#666;background-color:#fff;width:244px;height:206px;margin-top:130px;border:1px solid #d2d2d2;border-radius:3px;padding:33px 35px 0;transition:all .5s ease;}
+.active_wrapper_5_left_cont{margin:130px auto 0;width:388px;}
+.active_wrapper_5_right_cont{margin-right:210px;}
+.active_wrapper_5_left_cont a.downloadbtn,.active_wrapper_5_right_cont a.downloadbtn{margin:0 auto;width:160px;height:40px;line-height:40px;display:block;background-color:#007efe;font-size:16px;text-align:center;color:#fff;border-radius:3px;border:1px solid #007efe;transition:all .5s ease;}
+.active_wrapper_5 .anniversary_main h2{font-size:32px;line-height:40px;height:auto;font-weight:700;color:#007efe;margin-bottom: 0;color:#d41004;}
+.active_wrapper_5_left_cont h2{margin-bottom:0;}
+.active_wrapper_5_left_cont h2.now_on{color:#007efe;margin-bottom:15px;}
+.active_wrapper_5 h3{font-size:16px;line-height:18px;margin-top:18px;}
+.active_wrapper_5 h4{font-size:12px;height:12px;line-height:12px;margin:10px 0 30px;}
+.active_wrapper_5_right_cont h4{margin-bottom:13px;}
+.active_wrapper_5_left_cont:hover ,.active_wrapper_5_right_cont:hover{background-color:#007efe;border:1px solid #007efe;color:#fff;transition:all .5s ease;}
+.active_wrapper_5_left_cont:hover h2,.active_wrapper_5_right_cont:hover h2.now_on{color:#fff;transition:all .5s ease;}
+.active_wrapper_5_left_cont:hover a,.active_wrapper_5_right_cont:hover a{border:1px solid #fff;transition:all .5s ease;}
+.active_wrapper_5_left_cont a:hover,.active_wrapper_5_right_cont a:hover{color:#007efe;background-color:#fff;transition:all .5s ease;}
+.active_wrapper_5 .contact{margin:47px auto 90px;}
+.active_wrapper_5 .contact span ,.active_wrapper_5 .contact a{display:inline-block;line-height: 21px;font-weight:600;}
+.active_wrapper_5 .contact a:hover{text-decoration: underline;color:#007efe;}
+.active_wrapper_5 .contact_icon{margin-right:21px;margin-bottom:-4px;width:27px;height:21px;background:url(../images/anniversary/Mail.png)no-repeat;}
+.active_wrapper_5 .contact span ,.active_wrapper_5 .contact a{font-size:16px;color:#333;}
+.active_wrapper_5 .anniversary_main .big_sale{float:none;}
+.mec-desc{width:470px;}
+
+/* springsale 2018 */
+.springsale_banner{position:relative;height:832px;margin-top:50px;overflow: hidden;background: url(../images/2018/springsale/banner-springsale.png) no-repeat center; background-size: cover;}
+.springsale_content{height:auto;padding-top:95px;padding-bottom:50px;overflow: hidden;background: url(../images/2018/springsale/bg-springsale.webp) no-repeat center 0; background-size: cover;}
+.springsale_content .main{position:relative;padding:20px 23px 10px 255px;background-color:#fff;width:1200px;margin-bottom:46px;}
+.springsale_content .main .label{display:block;width:213px;position:absolute;left:9px;top:-13px;}
+.springsale_content .main_left{padding:0;width:700px;}
+.main_left_main1 ,.main_left_main2{float:left;}
+.main_left_main1{width:400px;}
+.springsale_content .main_right{padding:0;width:174px;}
+.main_right h3{font-size:26px;height:26px;line-height:26px;font-weight:bold;position: relative;text-align: center;margin:24px 0 9px;}
+.main_right h3 img{position:absolute;left:50%;top:50%;margin-left:-62px;margin-top: -5px;width:auto;}
+.springsale_content .main_left h2{float:left;margin-bottom:10px;color:#fb5640;font-size:36px;font-weight:700;line-height:36px;height:36px;}
+.springsale_content .main_left a.knw_more{float:left;margin-left:66px;color:#fb5640;line-height:36px;font-weight: 700;}
+.springsale_content .main_left ul.left{float:left;width:410px;}
+.springsale_content .main_left ul.right{float:left;width:260px;}
+.springsale_content .main_left li{font-weight:600;background:url(../images/2018/springsale/Bullet.png) no-repeat 0 10px;padding-left:36px;line-height:40px;font-size:12px;color:#010101;}
+.springsale_content .main_left li.gift{background:url(../images/2018/springsale/Bullet_Special.png) no-repeat 0 center;color:#fb5640;}
+
+.springsale_content .main_right h5{width: 147px;font-size:14px;margin:5px auto 0;background-color:#29cf6f;border-radius:3px;text-align:center;color:#fff;font-weight:700;}
+.springsale_content .main_right h2{height:auto;line-height: 48px;color:#fb5640;font-weight:700;margin: 0 auto 12px;text-align: center;font-size:48px;}
+.springsale_content .main_right a.shop_now{display:block;border-radius:26px;height:52px;width:174px;color:#fff7b6;background-color:#fb5640;text-align:center;line-height:52px;font-size:18px;font-weight:700;transition:all .5s ease;margin:0 auto;}
+.springsale_content .main_right a.shop_now:hover{transition:background-color .5s ease;background-color:#f79533;color:#fff7b6;}
+
+.christmas_bottom{width:95%;max-width:1412px;margin: 150px auto 100px;}
+
+/* springsale 2018 */
+@media screen and (max-width:1230px) {
+.bigstandardbanner .pic{ width:20%; margin-left:0;}
+.bigstandardbanner .text{ width:75%; }
+.bigstandardbanner .text h1{ font-size:32px; line-height:35px; margin:20px 0;}
+.bigstandardbanner .text h2{ font-size:32px;}
+.bigstandardbanner .text .btn{ margin-top:10px;}
+.interface1 .text{ width:55%; margin:0 0 0 0;}
+.interface1 .pic{ width:40%;}
+.interface1 .text h3{ font-size:20px; line-height:26px;}
+.interface1 .text p{ margin-top:10px; font-size:14px;}
+.interface1.fan .text{ margin:0 0 0 0;}
+.interface1 .text.xiao{ margin:0 0 0 0;}
+.image_text .text.xiao1{ margin:0 0 0 0;}
+
+.image_text{ padding:40px 0;}
+.image_text .text h3{ font-size:18px; line-height:26px;}
+.image_text .text{ width:55%; margin:0 0 0 0;}
+.image_text .text.xiao{ margin:30px 0 0 0;}
+.image_text .text p{ margin-top:10px; font-size:14px;}
+.image_text .text .t{ margin-bottom:15px; }
+.image_text .pic{ width:40%; margin:0;}
+.image_text .pic img{ width:100%;}
+.image_text.fan .pic{ float:left; margin:0;}
+
+.interfixbox h2{ font-size:20px;}
+.interfixbox dl{ width:23%;  margin:40px 2.666% 0 0; }
+.interfixbox dl h3{ font-size:18px;}
+.image_textup .text h3{ font-size:18px;}
+.image_textup .pic{ width:90%;}
+.image_textup img{ width:100%;}
+.image_text{ padding:40px 0;}
+.new_type dl{ width:25%;}
+
+.pic_tan{ width:80%;}
+.pic_tan dl{ width:30%;}
+.pic_tan .tu{ width:65%;}
+	/* 25���� */
+.anniversary_main{width:90%;}
+.anniversary_main .main_left ,.anniversary_main .main_right{width:50%;}
+.anniversary_main .main_right .video{float:right;}
+.active_wrapper_3 .main_right{padding-top:160px;}
+.active_wrapper_5 .anniversary_main .big_sale{width:100%;}
+/* 2017ʥ���� */
+.springsale_content{padding-top:60px;}
+.springsale_content .main{padding-left:120px;}
+.springsale_content .main{width:90%;padding-left:2%;padding-right:2%;}
+.springsale_content .main .label{display:none;}
+.springsale_content .main_left ,.springsale_content .main_right{width:auto;}
+.christmas_bottom{width:90%;}
+
+    .standardbanner .text{ width:70%; }
+    .standardbanner .pic.tu1{ width:20%;}
+    .standardbanner .text.di1{ width:70%;}
+    .standardbanner .text h1{ font-size:32px; line-height:35px; margin:0 0 15px 0;}
+    .standardbanner .text h2{ font-size:32px;}
+    .standardbanner .text h3{ font-size:32px; margin:0 0 15px 0;}
+}
+/* iPad Pro */
+@media screen and (max-width:1030px) {
+	/* 25���� */
+.active_wrapper{height:700px;}
+.active_wrapper_5_left_cont ,.active_wrapper_5_right_cont{margin:130px auto 0;}
+.anniversary_main .video a:hover span{background:url(../images/anniversary/play.png)no-repeat;width:50px;height:50px;margin:-25px 0 0 -25px;background-size: cover;}
+.active_wrapper .title{bottom:125px;font-size:32px;}
+.productbanner .text-center{width:90%;}
+}
+@media screen and ( max-width:850px ) {
+.bigstandardbanner{ margin-top:50px;}
+.bigstandardbanner .maincon{ padding-top:140px;}
+.interface1{ margin-top:30px;}
+.interface1 .text{ width:100%; margin:0 0 0 0; float:none;}
+.interface1 .pic{ width:80%; float:none; margin:0 auto; margin-top:20px;}
+.image_text .text{ width:100%; margin:0 0 0 0; float:none;}
+.image_text .text.xiao{ margin:0 0 0 0;}
+.image_text .pic{ width:80%; float:none; margin:0 auto; margin-top:20px;}
+.image_text.fan .pic{ margin-top:20px;}
+.biginterface.tu,.biginterface.tu1{ padding-bottom:50px;}
+
+.interfixbox dl{ width:45%;  margin:40px 2.5% 0 2.5%; }
+.interfixbox dl:nth-child(4n){ margin:40px 2.5% 0 2.5%;}
+.interfixbox dl p{ font-size:13px; }
+.interfixbox dl dt{ width:64px; margin:0 auto 20px auto;}
+
+.image_textup .text p{ font-size:14px; line-height:24px; width:90%;}
+.pic_tan dl{ width:55%; margin:0;}
+.pic_tan .tu{ width:42%;}
+}
+/* iPad ���� */
+@media screen and (max-width:769px) {
+.bigstandardbanner .maincon{ padding-top:80px;}
+.bigstandardbanner .pic{ width:24%; float:none; margin:0 auto;}
+.bigstandardbanner .text{ width:100%; float:none;  font-size:16px; line-height:24px; margin-top:30px;}
+.bigstandardbanner .text h1{ text-align:center;}
+.bigstandardbanner .text .btn{ margin:10px 0 24px 0; text-align:center; width:100%;}
+.bigstandardbanner .downloadbtn .hide{ top:55px;}
+.bigstandardbanner .downloadbtn .hide a{ line-height:40px;}
+.bigstandardbanner .downloadbtn .hide a i{display:inline-block; width:20px; height:20px; margin-right:10px; vertical-align:-4px;}
+.bigstandardbanner .downloadbtn .hide a i.b1{ background:url(../images/xzt_07.png) no-repeat; background-size:20px 20px; }
+.bigstandardbanner .downloadbtn .hide a i.b2{ background-size:20px 20px;}
+.bigstandardbanner .downloadbtn .hide a:hover i.b1{   background-size:20px 20px; }
+.bigstandardbanner .downloadbtn .hide a:hover i.b2{   background-size:20px 20px;}
+.bigstandardbanner .text .btn a{  width:160px; line-height:42px; font-size:14px;}
+.bigstandardbanner .text h1{ font-size:26px; line-height:30px; margin:10px 0;}
+.bigstandardbanner .text h2{ font-size:22px; text-align:center; margin-top:50px;}
+.bigstandardbanner .text a{ display:block; margin:10px auto;}
+.bigstandardbanner .nav{ height:auto;}
+.bigstandardbanner .nav a{ font-size:14px; margin:0 5px; line-height:40px; height:42px;}
+.new_type dl{ width:50%;}
+.standardbanner .text .btn a{ width:180px; height:45px;}
+
+/* 25���� */
+.active_wrapper{height:500px;margin-top:50px;}
+.active_wrapper_1 ,.active_wrapper_3{height:380px;}
+.active_wrapper_1 .main_left{padding-top:80px;}
+.anniversary_main .main_right .video, .anniversary_main .main_left .video{width:330px;padding-top:80px;margin-right:0;}
+.anniversary_main .video a span{width:70px;height:70px;margin: -35px 0 0 -35px;background-size:cover;}
+.anniversary_main .video a:hover span{width:70px;height:70px;margin: -35px 0 0 -35px;background-size:cover;}
+.active_wrapper_2 ,.active_wrapper_4{height:450px;}
+.anniversary_main .text h1{margin-top:100px;font-weight: 500;}
+.anniversary_main .text h5 ,.anniversary_main .text .btn{margin-top:50px;}
+.anniversary_main .text h5{width:100%;}
+.active_wrapper_3 .main_right{padding-top:98px;}
+.active_wrapper_5_left_cont, .active_wrapper_5_right_cont{margin-top:60px;}
+.active_wrapper_5 .contact{margin:30px auto 50px;}
+.active_wrapper .title{bottom:85px;font-size:28px;}
+/* ʥ���� */
+.springsale_content{height:auto;padding-top:50px;}
+.springsale_content .main{height:auto;}
+.springsale_content .main .label{display:block;width:80px;left:auto;right:0;top:0;}
+.springsale_content .main_left{padding-top:0;}
+    .main_left_main1 ,.main_left_main2{float:none;}
+.springsale_content .main_left h2{float:none;font-size:20px;margin-bottom:0;}
+.springsale_content .main_left a.knw_more{margin-left:0;line-height:30px;}
+.springsale_content .main_right{margin:100px 50px 0 0}
+.christmas_bottom{margin: 70px auto 50px;}
+
+    .standardbanner .text .btn a{  width:140px; line-height:40px; font-size:16px;}
+    .standardbanner .text h1{ font-size:22px; line-height:30px; margin:10px 0; text-align:center;}
+    .standardbanner .text h2{ font-size:26px; text-align:center; margin-top:40px;}
+    .standardbanner .text h3{ font-size:26px; text-align:center;  }
+    .standardbanner .text a{ display:block; margin:10px auto;}
+    .standardbanner .pic.tu1{ width:30%; margin:0 auto;}
+    .standardbanner .text.di1{ width:100%;}
+    .mec-desc{width:50%;}
+}
+
+@media screen and (max-width:480px) {
+.bigstandardbanner{ height:auto; padding-bottom:100px;}
+.bigstandardbanner .pic{ width:25%;}
+.bigstandardbanner .nav a{ font-size:14px; display:block; width:30.333333%; margin:0 1%; float:left;}
+.bigstandardbanner .text{ font-size:14px;}
+.bigstandardbanner .text .btn a{ width:140px; height:38px; font-size:12px;}
+.bigstandardbanner .text h1{ text-align:center;}
+.interfixbox{ padding:20px 0;}
+.interfixbox dl{ width:100%;  margin:10px auto; float:none;}
+.interfixbox dl:nth-child(4n){ margin:10px auto;}
+.interfixbox dl h3{ margin-bottom:5px;}
+.new_type dl{ width:100%; padding:20px;}
+.pic_tan dl{ width:100%; margin:0; float:none;}
+.pic_tan .tu{ width:100%; float:none; margin-top:20px;}
+.standardbanner .text .btn a{ width:160px; height:40px;}
+.watchMorebtn{text-align:center;}
+.watchMorebtn a{width: 80%;margin: 15px auto 0 auto;background:#deb721;}
+
+/* 25���� */
+.active_wrapper{height:400px;}
+.pic_tan{ width:100%;}
+.anniversary_main .main_left ,.anniversary_main .main_right{width:100%;float:none;}
+.active_wrapper_1 ,.active_wrapper_3{height:500px;}
+.anniversary_main .main_left h2, .anniversary_main .main_right h2{margin-bottom:15px;font-size:20px;}
+.active_wrapper_1 .main_left ,.active_wrapper_3 .main_left ,.active_wrapper_5 .main_left{padding-top:30px;}
+.anniversary_main .main_right .video, .anniversary_main .main_left .video{width:100%;padding-top:20px;margin-right:0;}
+.anniversary_main .video a span{width:50px;height:50px;margin: -25px 0 0 -25px;background-size:cover;}
+.anniversary_main .video a:hover span{width:50px;height:50px;margin: -25px 0 0 -25px;background-size:cover;}
+.anniversary_main .center{width:100%;}
+.anniversary_main .text .btn{width:100%;margin-top:15px;}
+.active_wrapper_4 .anniversary_main .text .btn{width:100%;margin-top:35px;}
+.anniversary_main .text .btn a.downloadbtn{float:none;width:70%;margin:0 auto 15px;}
+.anniversary_main .text h1{font-size:24px;margin:35px 0 10px;font-weight: 500;}
+.anniversary_main .text h5{margin-top:20px;}
+.anniversary_main .conbox{width:100%;}
+.active_wrapper_buy{height:100px;}
+.anniversary_main a.buy{margin:0 auto;float:none;width:70%;}
+.active_wrapper_buy h3{line-height:50px;float:none;}
+.active_wrapper_buy a{float:none;}
+.active_wrapper_2 ,.active_wrapper_4{height:350px;}
+.active_wrapper_3 .main_right{padding-top:30px;}
+.active_wrapper_5_left_cont, .active_wrapper_5_right_cont{margin-top:20px;width:100%;padding:20px 0;height:160px;}
+.active_wrapper_5 .contact{margin-top:25px;}
+.active_wrapper_5_left_cont a.downloadbtn, .active_wrapper_5_right_cont a.downloadbtn{width:70%;}
+.active_wrapper_5 .anniversary_main h2{margin-bottom:0;line-height: 30px;}
+.active_wrapper_5 .anniversary_main h2.now_on{margin-bottom:15px;}
+.active_wrapper .title{bottom:60px;font-size:20px;}
+/* ʥ���� */
+.springsale_banner{height:300px;}
+.springsale_content{height:auto;}
+.springsale_content .main .label{width:50px;}
+.springsale_content .main_left{padding-top:0;}
+.springsale_content .main_left ul.left{width:auto;}
+.springsale_content .main_left h2{margin-bottom:0;}
+.springsale_content .main_right{margin:20px auto;}
+.springsale_content .main_left li{font-size:10px;padding-left:25px;}
+.springsale_content .main_right h5{width:150px;}
+.springsale_content .main_right h2{line-height:20px;}
+    .springsale_content .main_right h2{font-size:36px;height:36px;line-height:36px;}
+    .main_left_main1{width:100%}
+    .s_support{ padding-top:40px;}
+    .s_support h2{ font-size: 20px;}
+    .s_support h2 span i{ height:20px; margin-right:0;}
+    .s_support h2 a{ margin-top:0;}
+    .s_support .bottom dt{ width:45%;}
+    .s_support .bottom dd{ width:55%; font-size:12px;}
+    .s_support .bottom dd span a{ margin-bottom:5px;display: block}
+}
+
+@media screen and (max-width:380px) {
+.bigstandardbanner .text h1{ font-size:24px; text-align:center;}
+.bigstandardbanner .nav a{ font-size:12px;}
+    .standardbanner .text h1{ font-size:20px;}
+    .standardbanner .text h2{ font-size:20px; margin-top:20px;}
+    .standardbanner .text h3{ font-size:22px; margin-top:20px;}
+
+/* 25���� */
+.active_wrapper{height:350px;}
+.active_wrapper .title{bottom:45px;font-size:18px;}
+.active_wrapper_1 ,.active_wrapper_3{height:540px;}
+.active_wrapper_2 ,.active_wrapper_4{height:360px;}
+.anniversary_main .text .btn{width:100%;margin-top:20px;}
+.anniversary_main .text h1{font-size:18px;margin:35px 0 5px;font-weight: 500;}
+.active_wrapper_buy h3{line-height:50px;float:none;font-size:13px;}
+.active_wrapper_buy h3 span{margin-left:10px;font-size:15px;}
+.active_wrapper_5 .contact{margin-top:20px;}
+.active_wrapper_5 .contact{width:270px;}
+.active_wrapper_5 .contact_icon{margin-right:15px;}
+.active_wrapper_5 .contact span, .active_wrapper_5 .contact a{font-size:14px;}
+/* ʥ���� */
+.springsale_content{height:auto;}
+.springsale_banner{height:300px;}
+.springsale_content .main_left h2{margin-bottom:0;}
+.springsale_content .main_left li{height:auto;}
+}

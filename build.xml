@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<!--
+
+使用介紹：
+目錄結構必須為如下：
+和目前ssouser結構保持一致
+
+-->
+
+<project default="war" basedir=".">
+
+    <echo message="pulling in property files" />
+    <property file="build.properties" /> 
+
+    <!--  定义项目名称  -->
+    <property name="project.name" value="gstarsoft" />
+    <property name="project.version" value="v1.1" />
+    <!--  定义jar包名称  -->
+    <property name="jar.name" value="com.xx" />
+    <!--  定义war名称  -->
+    <property name="war.name" value="${project.name}_${project.version}" />
+    <!--  定义 web 容器的部署路径  -->
+    <property name="localWebServer.home" value="build" />
+    <!--  定义 文件输出路径  -->
+    <property name="outFileDir" value="${localWebServer.home}/webapps/" />
+
+    <!--  源代码路径  -->
+    <property name="src.dir" value="src" />
+    <!-- 配置文件路径 -->
+    <property name="conf.dir" value="config" />
+    <!--  编译的目标路径  -->
+    <property name="dist.dir" value="./dist" />
+    <property name="dist.classes.dir" value="${dist.dir}/classes" />
+    <property name="dist.jar.dir" value="${dist.dir}/jar" />
+    <property name="dist.war.dir" value="${dist.dir}/war" />
+    <!-- WebContent 结构下的几个路径  -->
+    <property name="webcontent.dir" value="./web" />
+    <property name="webcontent.webinf.dir" value="${webcontent.dir}/WEB-INF" />
+
+    <!--  定义 classpath 路径，抽象定义，可以多处引用  -->
+    <path id="classpath">
+        <!-- 项目的jar包-->
+        <fileset dir="${webcontent.webinf.dir}/lib">
+            <include name="**/*.jar" />
+        </fileset>
+        <!-- 项目的classes文件-->
+        <pathelement location="${webcontent.webinf.dir}/classes " />
+        <!-- web 服务器的jar包-->
+        <fileset dir="${localWebServer.home}/lib">
+            <include name="**/*.jar" />
+        </fileset>
+    </path>
+    <!--  初始化删除、创建 classes 路径  -->
+    <target name="init">
+        <echo message=" ======  初始化创建build.dir编译目录  ======" />
+        <delete dir="${dist.dir}" />
+        <mkdir dir="${dist.dir}" />
+        <mkdir dir="${dist.jar.dir}" />
+        <mkdir dir="${dist.war.dir}" />
+        <mkdir dir="${localWebServer.home}" />
+        <mkdir dir="${localWebServer.home}/lib" />
+        <echo message=" ======  初始化WebContent.classes创建编译目录  ======" />
+        <!-- WebContent 下的 classes -->
+        <mkdir dir="${dist.classes.dir}" />
+    </target>
+    <!--  编译 java 文件，编译到 dist.classes 下-->
+    <target name="compile" depends="init">
+        <echo message=" ======  编译源代码 复制到 dist.classes 目录 ======" />
+        <javac encoding="utf-8" srcdir="${src.dir}" destdir="${dist.classes.dir}" debug="on" deprecation="false" optimize="true" failonerror="true" source="1.7" target="1.7">
+                        <classpath refid="classpath" />
+                </javac>
+
+        <echo message=" ======  将重新编译的classes文件复制到classes目录下 ======" />
+        <copy todir="${webcontent.webinf.dir}/classes">
+            <fileset dir="${dist.classes.dir}">
+                <exclude name="**/*Test*.*" />
+            </fileset>
+            <fileset dir="${src.dir}">  
+                <include name="**/*.xml" />  
+                <include name="**/*.properties" />  
+                <include name="**/*.sql" />
+                <include name="**/*.iml" /> 
+            </fileset> 
+        </copy>
+        
+        <echo message=" ======  将配置文件复制到classes目录下 ======" />
+        <copy todir="${webcontent.webinf.dir}/classes">
+            <fileset dir="${conf.dir}">
+                <include name="**/*" />
+            </fileset>
+        </copy>     
+    </target>
+
+    <target name="jar" depends="compile" description=" 将dist.classes打 jar包">
+        <echo message=" ====== 将src打 jar包 ======" />
+            <jar destfile="${dist.jar.dir}/${jar.name}.jar" basedir="${dist.classes.dir}">
+            
+            </jar>      
+    </target>   
+    <target name="war" depends="compile" description="将工程打成 war 包">
+        <echo message=" ======  打 war 包  ======" />
+        <delete file="${dist.war.dir}/${war.name}.war" />
+        <war warfile="${dist.war.dir}/${war.name}.war" webxml="${webcontent.webinf.dir}/web.xml">
+            <fileset dir="${webcontent.dir}" >
+            
+            </fileset>
+        </war>
+    </target>
+
+</project>
+

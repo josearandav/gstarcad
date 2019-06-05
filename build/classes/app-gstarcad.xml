@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:task="http://www.springframework.org/schema/task" xmlns:cache="http://www.springframework.org/schema/cache"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:security="http://www.springframework.org/schema/security"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd
+		http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache.xsd
+		http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd  
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+
+	<bean id="genericDao" abstract="true" class="com.gstarcad.website.dao.impl.GenericDaoImpl">
+		<property name="jdbcTemplate" ref="jdbcTemplate" />
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<!-- dao -->
+	<bean id="baseDao" abstract="true" class="com.gstarcad.website.dao.impl.BaseDaoImpl"
+		parent="genericDao" />
+	
+	<bean id="adminDao" class="com.gstarcad.website.dao.impl.AdminDaoImpl" parent="baseDao" />
+	
+	<bean id="menuTypeDao" class="com.gstarcad.website.dao.impl.MenuTypeDaoImpl" parent="baseDao" />
+	
+	<bean id="seoManageDao" class="com.gstarcad.website.dao.impl.SeoManageDaoImpl" parent="baseDao" />
+	
+	<bean id="newsCategoryDao" class="com.gstarcad.website.dao.impl.NewsCategoryDaoImpl" parent="baseDao" />
+	
+	<bean id="newsDao" class="com.gstarcad.website.dao.impl.NewsDaoImpl" parent="baseDao" />
+	
+	<bean id="productCategoryDao" class="com.gstarcad.website.dao.impl.ProductCategoryDaoImpl" parent="baseDao" />
+	
+	<bean id="versionDao" class="com.gstarcad.website.dao.impl.VersionDaoImpl" parent="baseDao" />
+	
+	<bean id="supportDao" class="com.gstarcad.website.dao.impl.SupportDaoImpl" parent="baseDao" />
+	
+	<bean id="downRecordDao" class="com.gstarcad.website.dao.impl.DownRecordDaoImpl" parent="baseDao" />
+	
+	<bean id="softInfoDao" class="com.gstarcad.website.dao.impl.SoftInfoDaoImpl" parent="baseDao" />
+	
+	<bean id="applicationCategoryDao" class="com.gstarcad.website.dao.impl.ApplicationCategoryDaoImpl" parent="baseDao" />
+	
+	<bean id="applicationDao" class="com.gstarcad.website.dao.impl.ApplicationDaoImpl" parent="baseDao" />
+	
+	<bean id="enquiryDao" class="com.gstarcad.website.dao.impl.EnquiryDaoImpl" parent="baseDao" />
+	
+	<bean id="resellerDao" class="com.gstarcad.website.dao.impl.ResellerDaoImpl" parent="baseDao" />
+	
+	<bean id="softwareDao" class="com.gstarcad.website.dao.impl.SoftwareDaoImpl" parent="baseDao" />
+	
+	<bean id="ecommerceDao" class="com.gstarcad.website.dao.impl.EcommerceDaoImpl" parent="baseDao" />
+	<bean id="ecPriceDao" class="com.gstarcad.website.dao.impl.EcPriceDaoImpl" parent="baseDao" />
+	<bean id="pFeatureDao" class="com.gstarcad.website.dao.impl.PFeatureDaoImpl" parent="baseDao" />
+	
+	<bean id="hotWordsDao" class="com.gstarcad.website.dao.impl.HotWordsDaoImpl" parent="baseDao" />
+	
+	<bean id="userInfoDao" class="com.gstarcad.website.dao.impl.UserInfoDaoImpl" parent="baseDao" />
+		
+	<!-- service -->
+	<bean id="adminService" class="com.gstarcad.website.service.impl.AdminServiceImpl"/>
+
+	<bean id="menuTypeService" class="com.gstarcad.website.service.impl.MenuTypeServiceImpl"/>
+	
+	<bean id="seoManageService" class="com.gstarcad.website.service.impl.SeoManageServiceImpl"/>
+	
+	<bean id="newsCategoryService" class="com.gstarcad.website.service.impl.NewsCategoryServiceImpl"/>
+	
+	<bean id="newsService" class="com.gstarcad.website.service.impl.NewsServiceImpl"/>
+	
+	<bean id="uploadService" class="com.gstarcad.website.service.impl.UploadServiceImpl"/>
+	
+	<bean id="productCategoryService" class="com.gstarcad.website.service.impl.ProductCategoryServiceImpl"/>
+	
+	<bean id="versionService" class="com.gstarcad.website.service.impl.VersionServiceImpl"/>
+	
+	<bean id="supportService" class="com.gstarcad.website.service.impl.SupportServiceImpl"/>
+
+	<bean id="softInfoService" class="com.gstarcad.website.service.impl.SoftInfoServiceImpl"/>
+	
+	<bean id="downRecordService" class="com.gstarcad.website.service.impl.DownRecordServiceImpl"/>
+	
+	<bean id="applicationCategoryService" class="com.gstarcad.website.service.impl.ApplicationCategoryServiceImpl"/>
+	
+	<bean id="applicationService" class="com.gstarcad.website.service.impl.ApplicationServiceImpl"/>
+	
+	<bean id="enquiryService" class="com.gstarcad.website.service.impl.EnquiryServiceImpl"/>
+	
+	<bean id="resellerService" class="com.gstarcad.website.service.impl.ResellerServiceImpl"/>
+	
+	<bean id="softwareService" class="com.gstarcad.website.service.impl.SoftwareServiceImpl"/>
+	
+	<bean id="ecommerceService" class="com.gstarcad.website.service.impl.EcommerceServiceImpl"/>
+	
+	<bean id="priceService" class="com.gstarcad.website.service.impl.PriceServiceImpl"/>
+	
+	<bean id="pFeatureService" class="com.gstarcad.website.service.impl.PFeatureServiceImpl"/>
+	
+	<bean id="buyService" class="com.gstarcad.website.service.impl.BuyServiceImpl"/>
+</beans>
